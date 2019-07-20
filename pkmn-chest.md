@@ -1,4 +1,5 @@
 ---
+repo: Universal-Team/pkmn-chest
 redirect_from:
   - pkmn-chest
   - pokemon-chest
