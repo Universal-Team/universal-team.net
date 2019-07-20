@@ -6,12 +6,21 @@ redirect_from:
 
 # Pokémon Chest
 > A Pokémon Bank for 4th and 5th generation Pokémon games for the Nintendo DS(i).
+Pokémon Chest is an app for the DS(i) that can store and edit Pokémon in the DS Pokémon games.
+It's current features include:
+- Loading save files from DSi SD, Flashcard SD, and retail cartridges
+- Storing up to 500 boxes of Pokémon per chest with support for multiple chests
+- Editing most of a Pokémon's data
+- Injecting pk4/pk5 files from SD
+- Dumping Pokémon to pk4/pk5 files
+- Translated to English, French, German, Italian, Japanese, Spanish* (Spanish translation coming soon)
 
-# Download
+## Download
 [Download Page](https://github.com/Universal-Team/pkmn-chest/releases/latest){: .btn}
 
 ## Contact
 The best way to talk to us is to join [our Discord](https://discord.gg/KDJCfGF).
+
 If you want to report a bug you can do so [here](https://github.com/Universal-Team/pkmn-chest/issues/new/choose).
 
 ## Credits
