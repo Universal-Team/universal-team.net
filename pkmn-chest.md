@@ -8,7 +8,7 @@ redirect_from:
 > A Pokémon Bank for 4th and 5th generation Pokémon games for the Nintendo DS(i).
 
 # Download
-<button name="button" onclick="https://github.com/Universal-Team/pkmn-chest/releases/tag/latest">Download Page</button>
+[Download Page](https://github.com/Universal-Team/pkmn-chest/releases/tag/latest){: .btn}
 
 ## Contact
 The best way to talk to us is to join [our Discord](https://discord.gg/KDJCfGF).
