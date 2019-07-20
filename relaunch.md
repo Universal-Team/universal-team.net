@@ -9,10 +9,10 @@ redirect_from:
 [Download Page](https://github.com/Universal-Team/Relaunch/releases/latest){: .btn}
 
 ## Basic Setup
-1) Get some .nds homebrew. (You can get some [here](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications))
-2) Start Relaunch and hold A and B.
-3) Head to Options and choose your hotkey apps.
-4) Start Relaunch again and hold the button corresponding to the app you want to launch.
+1. Get some .nds homebrew. (You can get some [here](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications))
+2. Start Relaunch and hold A and B.
+3. Head to Options and choose your hotkey apps.
+4. Start Relaunch again and hold the button corresponding to the app you want to launch.
 
 
 ## Advanced Usage
