@@ -1,4 +1,5 @@
 ---
+repo: Universal-Team/Universal-Manager
 redirect_from:
   - universal-manager
 ---
