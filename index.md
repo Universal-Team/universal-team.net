@@ -17,3 +17,6 @@ We're a group of people working on homebrew apps for the Nintendo DS(i), Nintend
 - [RocketRobz](https://github.com/RocketRobz)
 - TotallyNotGuy
 - [VoltZ](https://github.com/SuperSaiyajinVoltZ)
+
+## Contact
+The best way to talk to us is to join [our Discord](https://discord.gg/KDJCfGF).
