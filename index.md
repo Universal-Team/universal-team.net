@@ -20,7 +20,7 @@ We're a group of people working on homebrew apps for the Nintendo DS(i), Nintend
 - [FlameKat53](https://github.com/FlameKat53)
 - [Pk11](https://github.com/Epicpkmn11/)
 - [RocketRobz](https://github.com/RocketRobz)
-- TotallyNotGuy
+- [TotallyNotGuy](https://github.com/TotallyNotGuy)
 - [VoltZ](https://github.com/SuperSaiyajinVoltZ)
 
 ### Contact
