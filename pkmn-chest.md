@@ -1,5 +1,5 @@
 ---
-title: "pkmn-chest"
+description: "pkmn-chest"
 redirect_from:
   - pkmn-chest
 ---
