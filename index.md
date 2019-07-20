@@ -6,7 +6,7 @@ We're a group of people working on homebrew apps for the Nintendo DS(i), Nintend
 
 [Pokémon Chest](pkmn-chest){: .btn}
 
-> A Pokémon Bank for 4th and 5th generation Pokémon games for the Nintendo DS(i).
+> A Pokémon Bank for 4<sup>th</sup> and 5<sup>th</sup> generation Pokémon games for the Nintendo DS(i).
 
 [Relaunch](relaunch){: .btn}
 
