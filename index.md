@@ -4,11 +4,16 @@ We're a group of people working on homebrew apps for the Nintendo DS(i), Nintend
 
 ### Projects
 
-- [Pokémon Chest](pkmn-chest){: .btn}
+[Pokémon Chest](pkmn-chest){: .btn}
+
 > A Pokémon Bank for 4th and 5th generation Pokémon games for the Nintendo DS(i).
-- [Relaunch](relaunch){: .btn}
+
+[Relaunch](relaunch){: .btn}
+
 > Open-Source lookalike of nocash’s Unlaunch.dsi
-- [Universal-Manager](universal-manager){: .btn}
+
+[Universal-Manager](universal-manager){: .btn}
+
 > Multimedia tool for Nintendo DSi, Nintendo 3DS and Nintendo Switch.
 
 ### People
@@ -18,5 +23,5 @@ We're a group of people working on homebrew apps for the Nintendo DS(i), Nintend
 - TotallyNotGuy
 - [VoltZ](https://github.com/SuperSaiyajinVoltZ)
 
-## Contact
+### Contact
 The best way to talk to us is to join [our Discord](https://discord.gg/KDJCfGF).
