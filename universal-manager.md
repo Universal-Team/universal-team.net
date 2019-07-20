@@ -1,4 +1,5 @@
 ---
+color: "#002F50"
 repo: Universal-Team/Universal-Manager
 redirect_from:
   - universal-manager
