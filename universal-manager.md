@@ -14,6 +14,11 @@ redirect_from:
 ## Download
 [Download Page](https://github.com/Universal-Team/Universal-Manager/releases/latest){: .btn}
 
+## Screenshots
+![Citra-1](assets/images/universal-manager/Citra-1.png)
+![Citra-2](assets/images/universal-manager/Citra-2.png)
+![Citra-3](assets/images/universal-manager/Citra-3.png)
+
 ## Contact
 The best way to talk to us is to join [our Discord](https://discord.gg/KDJCfGF).
 
