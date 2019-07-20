@@ -8,6 +8,16 @@
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
 {% seo %}
+    <style>
+      #header_wrap {
+        background: {{ page.color | default: site.color}};
+        background: -moz-linear-gradient(top, #373737, {{ page.color | default: site.color }});
+        background: -webkit-linear-gradient(top, #373737, {{ page.color | default: site.color }});
+        background: -ms-linear-gradient(top, #373737, {{ page.color | default: site.color }});
+        background: -o-linear-gradient(top, #373737, {{ page.color | default: site.color }});
+        background: linear-gradient(to top, #373737, {{ page.color | default: site.color }})
+      }
+    </style>
   </head>
 
   <body>
