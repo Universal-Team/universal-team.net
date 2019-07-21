@@ -16,7 +16,7 @@ It's current features include:
 - Editing most of a Pokémon's data
 - Injecting pk4/pk5 files from SD
 - Dumping Pokémon to pk4/pk5 files
-- Translated to English, French, German, Italian, Japanese, Spanish* (Spanish translation coming soon)
+- Translated to English, French, German, Italian, Japanese, and Spanish
 
 ## Download
 [Download Page](https://github.com/Universal-Team/pkmn-chest/releases/latest){: .btn}
