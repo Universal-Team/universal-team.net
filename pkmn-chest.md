@@ -16,7 +16,7 @@ It's current features include:
 - Editing most of a Pokémon's data
 - Injecting pk4/pk5 files from SD
 - Dumping Pokémon to pk4/pk5 files
-- Translated to English, French, German, Italian, Japanese, and Spanish
+- Translated to English, French, German, Italian, Japanese, Russian, and Spanish
 
 ## Download
 [Download Page](https://github.com/Universal-Team/pkmn-chest/releases/latest){: .btn}
@@ -30,10 +30,11 @@ If you want to report a bug you can do so [here](https://github.com/Universal-Te
 ### Main Developers
 - [Epicpkmn11](https://github.com/Epicpkmn11): GUI code, porting PKSM's save and bank management code
 ### Translators
-- [Epicpkmn11](https://github.com/Epicpkmn11): English and Japanese
-- [VoltZ](https://github.com/SuperSaiyajinVoltZ): German
 - [antoine62](https://github.com/antoine62): French
 - [edo9300](https://github.com/edo9300): Italian
+- [Epicpkmn11](https://github.com/Epicpkmn11): English and Japanese
+- [Extocine](https://twitter.com/@ExtocineN): Russian
+- [VoltZ](https://github.com/SuperSaiyajinVoltZ): German
 ### Others
 - [devkitPro](https://github.com/devkitPro), [WinterMute](https://github.com/WinterMute): devkitARM, libnds, and libfat.
 - [Flagbrew](https://github.com/FlagBrew): [PKSM](https://github.com/FlagBrew/PKSM)'s save and bank management code
