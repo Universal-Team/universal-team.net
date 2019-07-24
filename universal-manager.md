@@ -42,3 +42,16 @@ Here are some Screenshots from Universal-Manager!
 The best way to talk to us is to join [our Discord](https://discord.gg/KDJCfGF).
 
 If you want to report a bug you can do so [here](https://github.com/Universal-Team/Universal-Manager/issues/new/choose).
+
+## Credits
+### Main Developers
+- [Epicpkmn11](https://github.com/Epicpkmn11) : Helped me a lot by problems or Mistakes.
+- [Universal-Team](https://github.com/Universal-Team) : Without the whole Team, we probably couldn't do such a great Application like Universal-Manager with those Graphics and such.
+- [VoltZ](https://github.com/SuperSaiyajinVoltZ) : Main Developer of Universal-Manager and previous Universal-Updater.
+### Others
+- [devkitPro](https://github.com/devkitPro), [Fincs](https://github.com/fincs), [Smealum](https://github.com/smealum), [WinterMute](https://github.com/WinterMute) : devkitARM, libnds, libfat, Libctru, Citro2D, Citro3D and LibNX.
+- [Flagbrew](https://github.com/FlagBrew): [PKSM](https://github.com/FlagBrew/PKSM)'s Basic Citro2D GUI Stuff, so I was able to work with Spritesheets and Graphics.
+- [FlameKat53](https://github.com/FlameKat53) : For Helping me out with the Azure Things.
+- [Joel16](https://github.com/joel16) : [3DShell](https://github.com/joel16/3DShell) : For the FTP, external Image, some GUI Functions like Text Drawing and Audio Code.
+- [RocketRobz](https://github.com/RocketRobz):[PDSX-3D](https://github.com/RocketRobz/PDSX-3D) : For the Animated Background Code from PDSX-3D.
+- [TotallyNotGuy](https://github.com/TotallyNotGuy): For making almost all of the Graphics from Universal-Manager.
