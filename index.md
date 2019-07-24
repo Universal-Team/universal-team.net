@@ -18,15 +18,15 @@ We're a group of people working on homebrew apps for the Nintendo DS(i), Nintend
 
 ### People
 - [FlameKat53](https://github.com/FlameKat53)
-![Image 1](https://github.com/Universal-Team/Universal-Manager/blob/master/3ds/assets/gfx/credits/flame.png)
+<img height="200" src="https://github.com/Universal-Team/Universal-Manager/blob/master/3ds/assets/gfx/credits/flame.png">
 - [Pk11](https://github.com/Epicpkmn11/)
-![Image 2](https://github.com/Universal-Team/Universal-Manager/blob/master/3ds/assets/gfx/credits/pk11.png)
+<img height="200" src="https://github.com/Universal-Team/Universal-Manager/blob/master/3ds/assets/gfx/credits/pk11.png">
 - [RocketRobz](https://github.com/RocketRobz)
-![Image 3](https://github.com/Universal-Team/Universal-Manager/blob/master/3ds/assets/gfx/credits/rocketRobz.png)
+<img height="200" src="https://github.com/Universal-Team/Universal-Manager/blob/master/3ds/assets/gfx/credits/rocketRobz.png">
 - [TotallyNotGuy](https://github.com/TotallyNotGuy)
-![Image 4](https://github.com/Universal-Team/Universal-Manager/blob/master/3ds/assets/gfx/credits/totallyNotGuy.png)
+<img height="200" src="https://github.com/Universal-Team/Universal-Manager/blob/master/3ds/assets/gfx/credits/totallyNotGuy.png">
 - [VoltZ](https://github.com/SuperSaiyajinVoltZ)
-![Image 5](https://github.com/Universal-Team/Universal-Manager/blob/master/3ds/assets/gfx/credits/voltZ.png)
+<img height="200" src="https://github.com/Universal-Team/Universal-Manager/blob/master/3ds/assets/gfx/credits/voltZ.png">
 
 ### Contact
 The best way to talk to us is to join [our Discord](https://discord.gg/KDJCfGF).
