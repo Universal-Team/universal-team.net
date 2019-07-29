@@ -25,4 +25,5 @@ We're a group of people working on homebrew apps for the Nintendo DS(i), Nintend
 
 ### Contact
 The best way to talk to us is to join our Discord:
+
 [![Discord](https://discordapp.com/api/guilds/568119817320792074/widget.png?style=banner2)](https://discord.gg/KDJCfGF)

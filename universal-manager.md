@@ -40,7 +40,8 @@ Here are some Screenshots from Universal-Manager!
 
 ## Contact
 The best way to talk to us is to join our Discord:
-![Discord](https://discordapp.com/api/guilds/568119817320792074/widget.png?style=banner2) [](https://discord.gg/KDJCfGF)
+
+[![Discord](https://discordapp.com/api/guilds/568119817320792074/widget.png?style=banner2)](https://discord.gg/KDJCfGF)
 
 If you want to report a bug you can do so [here](https://github.com/Universal-Team/Universal-Manager/issues/new/choose).
 
