@@ -39,7 +39,8 @@ Here are some Screenshots from Universal-Manager!
 ![Citra-3](assets/images/universal-manager/Citra-3.png)
 
 ## Contact
-The best way to talk to us is to join [our Discord](https://discord.gg/KDJCfGF).
+The best way to talk to us is to join our Discord:
+![https://discordapp.com/api/guilds/568119817320792074/widget.png?style=banner2](https://discord.gg/KDJCfGF)
 
 If you want to report a bug you can do so [here](https://github.com/Universal-Team/Universal-Manager/issues/new/choose).
 

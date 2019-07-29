@@ -24,4 +24,5 @@ We're a group of people working on homebrew apps for the Nintendo DS(i), Nintend
 - ![](https://avatars3.githubusercontent.com/u/47382115?s=32){: .pfp} [VoltZ](https://github.com/SuperSaiyajinVoltZ)
 
 ### Contact
-The best way to talk to us is to join [our Discord](https://discord.gg/KDJCfGF).
+The best way to talk to us is to join our Discord:
+![https://discordapp.com/api/guilds/568119817320792074/widget.png?style=banner2](https://discord.gg/KDJCfGF)
