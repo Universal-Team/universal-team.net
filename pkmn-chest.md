@@ -21,6 +21,15 @@ It's current features include:
 ## Download
 [Download Page](https://github.com/Universal-Team/pkmn-chest/releases/latest){: .btn}
 
+## Screenshots
+![Top Menu](assets/images/pkmn-chest/topMenu.png) ![Box](assets/images/pkmn-chest/box.png)
+
+![X Menu](assets/images/pkmn-chest/xMenu.png) ![Options](assets/images/pkmn-chest/options.png)
+
+![Summary](assets/images/pkmn-chest/summary.png) ![Party](assets/images/pkmn-chest/party.png)
+
+![Natures](assets/images/pkmn-chest/natures.png) ![stats](assets/images/pkmn-chest/stats.png)
+
 ## Contact
 The best way to talk to us is to join our Discord:
 
