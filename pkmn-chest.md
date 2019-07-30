@@ -24,7 +24,7 @@ It's current features include:
 ## Screenshots
 ![Top Menu](assets/images/pkmn-chest/topMenu.png) ![Box](assets/images/pkmn-chest/box.png)
 
-![X Menu](assets/images/pkmn-chest/xMenu.png) ![Options](assets/images/pkmn-chest/options.png)
+![X Menu](assets/images/pkmn-chest/xMenu.png) ![Options](assets/images/pkmn-chest/options.gif)
 
 ![Summary](assets/images/pkmn-chest/summary.png) ![Party](assets/images/pkmn-chest/party.png)
 
