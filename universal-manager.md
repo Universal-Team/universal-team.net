@@ -12,13 +12,13 @@ redirect_from:
 			var release = json[0];
 			var version = release.name;
 
-			var 3dsxURL = 'https://github.com/Universal-Team/Universal-Manager/releases/download/'+version+'/Universal-Manager.3dsx'
+			var n3dsxURL = 'https://github.com/Universal-Team/Universal-Manager/releases/download/'+version+'/Universal-Manager.3dsx'
 			var ciaURL = 'https://github.com/Universal-Team/Universal-Manager/releases/download/'+version+'/Universal-Manager.cia'
 			var releaseURL = 'https://github.com/Universal-Team/Universal-Manager/releases/tag/'+version
 			
-			$('#3dsxDownload').attr('href', 3dsxURL);
+			$('#n3dsxDownload').attr('href', n3dsxURL);
 			$('#ciaDownload').attr('href', ciaURL);
-			$('#3dsxDownload').attr('class', 'btn');
+			$('#n3dsxDownload').attr('class', 'btn');
 			$('#ciaDownload').attr('class', 'btn');
 			$('#latestVersion').html(version)
 			$('#latestVersion').attr('href', releaseURL);
@@ -57,7 +57,7 @@ The NDS and Switch Version will follow when it is usable.
 
 Latest version is: [latest](https://github.com/Universal-Team/Universal-Manager/releases/latest){: #latestVersion}
 
-[Download .3dsx](){: .btn .hidden #3dsxDownload}
+[Download .3dsx](){: .btn .hidden #n3dsxDownload}
 [Download .cia](){: .btn .hidden #ciaDownload}
 [Release Page](https://github.com/Universal-Team/Universal-Manager/releases/latest){: .btn}
 
