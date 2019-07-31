@@ -42,6 +42,9 @@ It's current features include:
 [Download .cia](){: .btn #ciaDownload}
 [Release Page](https://github.com/Universal-Team/pkmn-chest/releases/latest){: .btn}
 
+[Dowload nightly .nds](https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.nds)
+[Dowload nightly .cia](https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.cia)
+
 ## Screenshots
 ![Top Menu](assets/images/pkmn-chest/topMenu.png) ![Box](assets/images/pkmn-chest/box.png)
 
