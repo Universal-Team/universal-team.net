@@ -2,9 +2,26 @@
 color: "#bf0300"
 repo: Universal-Team/pkmn-chest
 redirect_from:
-  - pkmn-chest
-  - pokemon-chest
+	- pkmn-chest
+	- pokemon-chest
 ---
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		GetLatestReleaseInfo();
+	});
+
+	function GetLatestReleaseInfo() {
+		$.getJSON('https://api.github.com/repos/Universal-Team/pkmn-chest/tags').done(function (json) {
+		var release = json[0];
+		var version = release.name;
+		var ndsURL = 'https://github.com/Universal-Team/pkmn-chest/releases/download/'+version+'/pkmn-chest.nds'
+		$('#ndsDownload').attr('href', exeURL);
+
+		});
+	}
+</script>
 
 # Pokémon Chest
 > A Pokémon Bank for 4th and 5th generation Pokémon games for the Nintendo DS(i).
@@ -19,6 +36,7 @@ It's current features include:
 - Translated to English, French, German, Italian, Japanese, Russian, and Spanish
 
 ## Download
+[Download nds](){: .btn #ndsDownload}
 [Download Page](https://github.com/Universal-Team/pkmn-chest/releases/latest){: .btn}
 
 ## Screenshots
