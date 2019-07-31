@@ -17,7 +17,7 @@ redirect_from:
 		var release = json[0];
 		var version = release.name;
 		var ndsURL = 'https://github.com/Universal-Team/pkmn-chest/releases/download/'+version+'/pkmn-chest.nds'
-		$('#ndsDownload').attr('href', exeURL);
+		$('#ndsDownload').attr('href', ndsURL);
 
 		});
 	}
