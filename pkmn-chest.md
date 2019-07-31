@@ -19,6 +19,8 @@ redirect_from:
 				$('#ciaDownload').attr('href', ciaURL);
 				$('#ndsDownload').attr('class', 'btn');
 				$('#ciaDownload').attr('class', 'btn');
+				$('#latestVersion').html('Latest version: '+version)
+				$('#latestVersion').attr('class', 'btn');
 			}
 		});
 	});
@@ -40,6 +42,8 @@ It's current features include:
 [Download .nds](){: .btn .hidden #ndsDownload}
 [Download .cia](){: .btn .hidden #ciaDownload}
 [Release Page](https://github.com/Universal-Team/pkmn-chest/releases/latest){: .btn}
+
+Latest version is: latest{: #latestVersion .hidden}
 
 [Dowload nightly .nds](https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.nds){: .btn}
 [Dowload nightly .cia](https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.cia){: .btn}
