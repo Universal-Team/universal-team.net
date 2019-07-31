@@ -29,6 +29,10 @@ redirect_from:
 [Download .7z](){: .btn .hidden #zipDownload}
 [Download Page](https://github.com/Universal-Team/Relaunch/releases/latest){: .btn}
 
+Latest version is: [latest](https://github.com/Universal-Team/Relaunch/releases/latest){: #latestVersion}
+
+[Dowload nightly .7z](https://github.com/Universal-Team/extras/raw/master/builds/Relaunch.7z){: .btn}
+
 ## Basic Setup
 1. Get some .nds homebrew. (You can get some [here](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications))
 2. Start Relaunch and hold A and B.
