@@ -1,10 +1,31 @@
 ---
-color: "#bf0300"
+color: "#BF0300"
 repo: Universal-Team/pkmn-chest
 redirect_from:
 	- pkmn-chest
 	- pokemon-chest
 ---
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$.getJSON('https://api.github.com/repos/Universal-Team/pkmn-chest/tags').done(function(json) {
+			var release = json[0];
+			var version = release.name;
+
+			var ndsURL = 'https://github.com/Universal-Team/pkmn-chest/releases/download/'+version+'/pkmn-chest.nds'
+			var ciaURL = 'https://github.com/Universal-Team/pkmn-chest/releases/download/'+version+'/pkmn-chest.cia'
+			var releaseURL = 'https://github.com/Universal-Team/pkmn-chest/releases/tag/'+version
+
+			$('#ndsDownload').attr('href', ndsURL);
+			$('#ciaDownload').attr('href', ciaURL);
+			$('#ndsDownload').attr('class', 'btn');
+			$('#ciaDownload').attr('class', 'btn');
+			$('#latestVersion').html(version)
+			$('#latestVersion').attr('href', releaseURL);
+		});
+	});
+</script>
 
 # Pokémon Chest
 > A Pokémon Bank for 4th and 5th generation Pokémon games for the Nintendo DS(i).
