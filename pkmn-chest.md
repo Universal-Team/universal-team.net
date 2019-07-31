@@ -9,8 +9,8 @@ redirect_from:
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script>
 	$(document).ready(function() {
-		$('#ndsDownload').style('display', 'inline-block');
-		$('#ciaDownload').style('display', 'inline-block');
+		$('#ndsDownload').attr('class', 'btn');
+		$('#ciaDownload').attr('class', 'btn');
 			$.getJSON('https://api.github.com/repos/Universal-Team/pkmn-chest/tags').done(function(json) {
 				var release = json[0];
 				var version = release.name;
