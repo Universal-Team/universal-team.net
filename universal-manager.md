@@ -5,6 +5,27 @@ redirect_from:
   - universal-manager
 ---
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$.getJSON('https://api.github.com/repos/Universal-Team/Universal-Manager/tags').done(function(json) {
+			var release = json[0];
+			var version = release.name;
+
+			var n3dsxURL = 'https://github.com/Universal-Team/Universal-Manager/releases/download/'+version+'/Universal-Manager.3dsx'
+			var ciaURL = 'https://github.com/Universal-Team/Universal-Manager/releases/download/'+version+'/Universal-Manager.cia'
+			var releaseURL = 'https://github.com/Universal-Team/Universal-Manager/releases/tag/'+version
+			
+			$('#n3dsxDownload').attr('href', n3dsxURL);
+			$('#ciaDownload').attr('href', ciaURL);
+			$('#n3dsxDownload').attr('class', 'btn');
+			$('#ciaDownload').attr('class', 'btn');
+			$('#latestVersion').html(version)
+			$('#latestVersion').attr('href', releaseURL);
+		});
+	});
+</script>
+
 # Universal-Manager
 
 > Multimedia tool for Nintendo DSi, Nintendo 3DS and Nintendo Switch.
@@ -29,7 +50,19 @@ You can visit Universal-Manager's Wiki for more information about Universal-Mana
 
 
 ## Download
-[Download Page](https://github.com/Universal-Team/Universal-Manager/releases/latest){: .btn}
+
+Here you can find the Download Links to Universal-Manager. (Currently only the 3ds Version.)
+
+The NDS and Switch Version will follow when it is usable.
+
+Latest version is: [latest](https://github.com/Universal-Team/Universal-Manager/releases/latest){: #latestVersion}
+
+[Download .3dsx](){: .btn .hidden #n3dsxDownload}
+[Download .cia](){: .btn .hidden #ciaDownload}
+[Release Page](https://github.com/Universal-Team/Universal-Manager/releases/latest){: .btn}
+
+[Dowload nightly .3dsx](https://github.com/Universal-Team/extras/raw/master/builds/Universal-Manager/Universal-Manager.3dsx){: .btn}
+[Dowload nightly .cia](https://github.com/Universal-Team/extras/raw/master/builds/Universal-Manager/Universal-Manager.cia){: .btn}
 
 ## Screenshots
 Here are some Screenshots from Universal-Manager!
