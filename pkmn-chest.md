@@ -12,18 +12,17 @@ redirect_from:
 		$.getJSON('https://api.github.com/repos/Universal-Team/pkmn-chest/tags').done(function(json) {
 			var release = json[0];
 			var version = release.name;
-			if(version) {
-				var ndsURL = 'https://github.com/Universal-Team/pkmn-chest/releases/download/'+version+'/pkmn-chest.nds'
-				var ciaURL = 'https://github.com/Universal-Team/pkmn-chest/releases/download/'+version+'/pkmn-chest.cia'
-				var releaseURL = 'https://github.com/Universal-Team/pkmn-chest/releases/tag/'+version
-				$('#ndsDownload').attr('href', ndsURL);
-				$('#ciaDownload').attr('href', ciaURL);
-				$('#ndsDownload').attr('class', 'btn');
-				$('#ciaDownload').attr('class', 'btn');
-				$('#latestVersion').html(version)
-				$('#latestVersion').attr('href', releaseURL);
-				$('#latestVersion').attr('class', 'btn');
-			}
+
+			var ndsURL = 'https://github.com/Universal-Team/pkmn-chest/releases/download/'+version+'/pkmn-chest.nds'
+			var ciaURL = 'https://github.com/Universal-Team/pkmn-chest/releases/download/'+version+'/pkmn-chest.cia'
+			var releaseURL = 'https://github.com/Universal-Team/pkmn-chest/releases/tag/'+version
+			
+			$('#ndsDownload').attr('href', ndsURL);
+			$('#ciaDownload').attr('href', ciaURL);
+			$('#ndsDownload').attr('class', 'btn');
+			$('#ciaDownload').attr('class', 'btn');
+			$('#latestVersion').html(version)
+			$('#latestVersion').attr('href', releaseURL);
 		});
 	});
 </script>
@@ -45,7 +44,7 @@ It's current features include:
 [Download .cia](){: .btn .hidden #ciaDownload}
 [Release Page](https://github.com/Universal-Team/pkmn-chest/releases/latest){: .btn}
 
-Latest version is: [latest](){: #latestVersion .hidden}
+Latest version is: [latest](https://github.com/Universal-Team/pkmn-chest/releases/latest){: #latestVersion}
 
 [Dowload nightly .nds](https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.nds){: .btn}
 [Dowload nightly .cia](https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.cia){: .btn}
