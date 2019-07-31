@@ -7,23 +7,23 @@ redirect_from:
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script>
-	$(document).ready(function() {
-		$.getJSON('https://api.github.com/repos/Universal-Team/Universal-Manager/tags').done(function(json) {
-			var release = json[0];
-			var version = release.name;
+  $(document).ready(function() {
+    $.getJSON('https://api.github.com/repos/Universal-Team/Universal-Manager/tags').done(function(json) {
+      var release = json[0];
+      var version = release.name;
 
-			var n3dsxURL = 'https://github.com/Universal-Team/Universal-Manager/releases/download/'+version+'/Universal-Manager.3dsx'
-			var ciaURL = 'https://github.com/Universal-Team/Universal-Manager/releases/download/'+version+'/Universal-Manager.cia'
-			var releaseURL = 'https://github.com/Universal-Team/Universal-Manager/releases/tag/'+version
-			
-			$('#n3dsxDownload').attr('href', n3dsxURL);
-			$('#ciaDownload').attr('href', ciaURL);
-			$('#n3dsxDownload').attr('class', 'btn');
-			$('#ciaDownload').attr('class', 'btn');
-			$('#latestVersion').html(version)
-			$('#latestVersion').attr('href', releaseURL);
-		});
-	});
+      var n3dsxURL = 'https://github.com/Universal-Team/Universal-Manager/releases/download/'+version+'/Universal-Manager.3dsx'
+      var ciaURL = 'https://github.com/Universal-Team/Universal-Manager/releases/download/'+version+'/Universal-Manager.cia'
+      var releaseURL = 'https://github.com/Universal-Team/Universal-Manager/releases/tag/'+version
+
+      $('#n3dsxDownload').attr('href', n3dsxURL);
+      $('#ciaDownload').attr('href', ciaURL);
+      $('#n3dsxDownload').attr('class', 'btn');
+      $('#ciaDownload').attr('class', 'btn');
+      $('#latestVersion').html(version)
+      $('#latestVersion').attr('href', releaseURL);
+    });
+  });
 </script>
 
 # Universal-Manager
