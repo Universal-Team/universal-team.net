@@ -17,13 +17,10 @@ redirect_from:
 					var ciaURL = 'https://github.com/Universal-Team/pkmn-chest/releases/download/'+version+'/pkmn-chest.cia'
 					$('#ndsDownload').attr('href', ndsURL);
 					$('#ciaDownload').attr('href', ciaURL);
+					$('#ndsDownload').attr('display', 'block');
+					$('#ciaDownload').attr('display', 'block');
 				}
 			});
-
-			$.onerror = function(){
-				$('#ndsDownload').attr('display', 'none');
-				$('#ciaDownload').attr('display', 'none');
-			}
 	});
 </script>
 
@@ -40,12 +37,12 @@ It's current features include:
 - Translated to English, French, German, Italian, Japanese, Russian, and Spanish
 
 ## Download
-[Download .nds](){: .btn #ndsDownload}
-[Download .cia](){: .btn #ciaDownload}
+[Download .nds](){: .btn .hidden #ndsDownload}
+[Download .cia](){: .btn .hidden #ciaDownload}
 [Release Page](https://github.com/Universal-Team/pkmn-chest/releases/latest){: .btn}
 
-[Dowload nightly .nds](https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.nds)
-[Dowload nightly .cia](https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.cia)
+[Dowload nightly .nds](https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.nds){: .btn}
+[Dowload nightly .cia](https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.cia){: .btn}
 
 ## Screenshots
 ![Top Menu](assets/images/pkmn-chest/topMenu.png) ![Box](assets/images/pkmn-chest/box.png)
