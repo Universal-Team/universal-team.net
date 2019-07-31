@@ -40,7 +40,7 @@ It's current features include:
 ## Download
 [Download .nds](){: .btn #ndsDownload}
 [Download .cia](){: .btn #ciaDownload}
-[Download Page](https://github.com/Universal-Team/pkmn-chest/releases/latest){: .btn}
+[Release Page](https://github.com/Universal-Team/pkmn-chest/releases/latest){: .btn}
 
 ## Screenshots
 ![Top Menu](assets/images/pkmn-chest/topMenu.png) ![Box](assets/images/pkmn-chest/box.png)
