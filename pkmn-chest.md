@@ -17,8 +17,8 @@ redirect_from:
 					var ciaURL = 'https://github.com/Universal-Team/pkmn-chest/releases/download/'+version+'/pkmn-chest.cia'
 					$('#ndsDownload').attr('href', ndsURL);
 					$('#ciaDownload').attr('href', ciaURL);
-					$('#ndsDownload').attr('display', 'inline-block');
-					$('#ciaDownload').attr('display', 'inline-block');
+					$('#ndsDownload').style('display', 'inline-block');
+					$('#ciaDownload').style('display', 'inline-block');
 				}
 			});
 	});
