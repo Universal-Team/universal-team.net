@@ -9,19 +9,21 @@ redirect_from:
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script>
 	$(document).ready(function() {
-			$.getJSON('https://api.github.com/repos/Universal-Team/pkmn-chest/tags').done(function(json) {
-			var release = json[0];
-			var version = release.name;
-			if(version) {
-				var ndsURL = 'https://github.com/Universal-Team/pkmn-chest/releases/download/'+version+'/pkmn-chest.nds'
-				var ciaURL = 'https://github.com/Universal-Team/pkmn-chest/releases/download/'+version+'/pkmn-chest.cia'
-				$('#ndsDownload').attr('href', ndsURL);
-				$('#ciaDownload').attr('href', ciaURL);
-			} else {
+			try {
+				$.getJSON('https://api.github.com/repos/Universal-Team/pkmn-chest/tags').done(function(json) {
+					var release = json[0];
+					var version = release.name;
+					if(version) {
+						var ndsURL = 'https://github.com/Universal-Team/pkmn-chest/releases/download/'+version+'/pkmn-chest.nds'
+						var ciaURL = 'https://github.com/Universal-Team/pkmn-chest/releases/download/'+version+'/pkmn-chest.cia'
+						$('#ndsDownload').attr('href', ndsURL);
+						$('#ciaDownload').attr('href', ciaURL);
+					}
+				});
+			} catch {
 				$('#ndsDownload').attr('display', 'none');
 				$('#ciaDownload').attr('display', 'none');
 			}
-		});
 	});
 </script>
 
