@@ -1,3 +1,8 @@
+---
+redirect: index
+layout: default
+---
+
 ## Universal-Team
 
 We're a group of people working on homebrew apps for the Nintendo DS(i), Nintendo 3DS, and Nintendo Switch.

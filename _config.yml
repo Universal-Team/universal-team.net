@@ -1,6 +1,10 @@
-theme: jekyll-theme-slate
+theme       : jekyll-theme-slate
+title       : "Universal-Team"
+description : "Universal-Team's official site."
+repo        : "Universal-Team/universal-team.github.io"
+color       : "#00c882"
 
-title                    : "Universal-Team"
-description              : "Universal-Team's official site."
-repo                     : "Universal-Team/universal-team.github.io"
-color                    : "#00c882"
+defaults:
+  -
+    values:
+      layout: "default"
