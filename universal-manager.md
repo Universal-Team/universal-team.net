@@ -67,9 +67,23 @@ Latest version is: [latest](https://github.com/Universal-Team/Universal-Manager/
 ## Screenshots
 Here are some Screenshots from Universal-Manager!
 
+## 3DS-Version
+Those Screenshots are from a Nightly version of Universal-Manager.
+
 ![Citra-1](assets/images/universal-manager/Citra-1.png)
 ![Citra-2](assets/images/universal-manager/Citra-2.png)
 ![Citra-3](assets/images/universal-manager/Citra-3.png)
+![Citra-4](assets/images/universal-manager/Citra-4.png)
+![Citra-5](assets/images/universal-manager/Citra-5.png)
+![Citra-6](assets/images/universal-manager/Citra-6.png)
+![Citra-7](assets/images/universal-manager/Citra-7.png)
+![Citra-8](assets/images/universal-manager/Citra-8.png)
+![Citra-9](assets/images/universal-manager/Citra-9.png)
+![Citra-10](assets/images/universal-manager/Citra-10.png)
+![Citra-11](assets/images/universal-manager/Citra-11.png)
+![Citra-12](assets/images/universal-manager/Citra-12.png)
+![Citra-13](assets/images/universal-manager/Citra-13.png)
+![Citra-14](assets/images/universal-manager/Citra-14.png)
 
 ## Contact
 The best way to talk to us is to join our Discord:
