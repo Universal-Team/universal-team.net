@@ -37,7 +37,8 @@ It's current features include:
 - Editing most of a Pokémon's data
 - Injecting pk4/pk5 files from SD
 - Dumping Pokémon to pk4/pk5 files
-- Translated to English, French, German, Italian, Japanese, Russian, and Spanish
+- Translated to English, French, German, Italian, Japanese, Korean*, Russian, and Spanish
+    - *(App has not yet been translated to Korean, just the Pokémon info)
 
 ## Download
 [Download .nds](){: .btn .hidden #ndsDownload}
@@ -54,9 +55,13 @@ Latest version is: [latest](https://github.com/Universal-Team/pkmn-chest/release
 
 ![X Menu](assets/images/pkmn-chest/xMenu.png) ![Options](assets/images/pkmn-chest/options.gif)
 
-![Summary](assets/images/pkmn-chest/summary.png) ![Party](assets/images/pkmn-chest/party.png)
+![Party](assets/images/pkmn-chest/party.png) ![Summary](assets/images/pkmn-chest/summary.png)
 
-![Natures](assets/images/pkmn-chest/natures.png) ![stats](assets/images/pkmn-chest/stats.png)
+![Natures](assets/images/pkmn-chest/natures.png) ![balls](assets/images/pkmn-chest/balls.png)
+
+![forms](assets/images/pkmn-chest/forms.png) ![moves](assets/images/pkmn-chest/moves.png)
+
+![stats](assets/images/pkmn-chest/stats.png) ![origin](assets/images/pkmn-chest/origin.png)
 
 ## Contact
 The best way to talk to us is to join our Discord:
