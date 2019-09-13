@@ -37,8 +37,9 @@ It's current features include:
 - Editing most of a Pokémon's data
 - Injecting pk4/pk5 files from SD
 - Dumping Pokémon to pk4/pk5 files
-- Translated to English, French, German, Italian, Japanese, Korean*, Russian, and Spanish
-    - *(App has not yet been translated to Korean, just the Pokémon info)
+- Translated to English, French, German, Italian, Japanese, Korean*, Lithuanian**, Portuguese, Russian**, and Spanish
+    - *(the Korean translation is not complete)
+    - **(some character graphics are currently missing)
 
 ## Download
 [Download .nds](){: .btn .hidden #ndsDownload}
