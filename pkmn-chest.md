@@ -80,11 +80,11 @@ If you want to report a bug you can do so [here](https://github.com/Universal-Te
 - [edo9300](https://github.com/edo9300): Italian
 - [Epicpkmn11](https://github.com/Epicpkmn11): English and Japanese
 - [Extocine](https://twitter.com/@ExtocineN): Russian
-- [lemonnade0](https://github.com/lemonnade0): Lithuanian
+- [lemonnade0](https://steamcommunity.com/profiles/76561198276444028): Lithuanian
 - [NightYoshi370](https://github.com/NightYoshi370/): French
 - [VoltZ](https://github.com/SuperSaiyajinVoltZ): German
 ### Others
-- [devkitPro](https://github.com/devkitPro), [WinterMute](https://github.com/WinterMute): devkitARM, libnds, and libfat.
+- [devkitPro](https://github.com/devkitPro), [WinterMute](https://github.com/WinterMute): devkitARM, libnds, and libfat
 - [edo9300](https://github.com/edo9300): [ndsi-savedumper](https://github.com/edo9300/ndsi-savedumper)'s gamecard save dumping and injecting code
 - [Flagbrew](https://github.com/FlagBrew): [PKSM](https://github.com/FlagBrew/PKSM)'s save and bank management code
 - [RocketRobz](https://github.com/RocketRobz): Adding flashcard and SD being used together and code from [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu)
