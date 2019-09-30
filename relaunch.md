@@ -1,5 +1,6 @@
 ---
 title: Relaunch
+image: "/assets/images/icons/relaunch.png"
 color: "#666"
 repo: Universal-Team/Relaunch
 redirect_from:

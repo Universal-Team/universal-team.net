@@ -1,5 +1,6 @@
 ---
 title: LeafEdit
+image: "/assets/images/icons/leafedit.png"
 color: "#04b324"
 repo: Universal-Team/LeafEdit
 redirect_from:

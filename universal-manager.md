@@ -1,5 +1,6 @@
 ---
 title: Universal-Manager
+image: "/assets/images/icons/universal-manager.png"
 color: "#002F50"
 repo: Universal-Team/Universal-Manager
 redirect_from:

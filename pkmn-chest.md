@@ -1,5 +1,6 @@
 ---
 title: pkmn-chest
+image: "/assets/images/icons/pkmn-chest.png"
 color: "#BF0300"
 repo: Universal-Team/pkmn-chest
 redirect_from:
