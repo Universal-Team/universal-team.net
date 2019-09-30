@@ -1,4 +1,5 @@
 ---
+title: pkmn-chest
 color: "#BF0300"
 repo: Universal-Team/pkmn-chest
 redirect_from:

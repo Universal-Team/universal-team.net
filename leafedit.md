@@ -1,4 +1,5 @@
 ---
+title: LeafEdit
 color: "#04b324"
 repo: Universal-Team/LeafEdit
 redirect_from:
