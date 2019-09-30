@@ -54,7 +54,7 @@ Latest version is: [latest](https://github.com/Universal-Team/pkmn-chest/release
 ## Screenshots
 ![Top Menu](assets/images/pkmn-chest/topMenu.png) ![Box](assets/images/pkmn-chest/box.png)
 
-![Wallpaper](assets/images/pkmn-chest/wallpaper.png)![X Menu](assets/images/pkmn-chest/xMenu.png)
+![Wallpaper](assets/images/pkmn-chest/wallpaper.png) ![X Menu](assets/images/pkmn-chest/xMenu.png)
 
 ![Options](assets/images/pkmn-chest/options.gif) ![Party](assets/images/pkmn-chest/party.png)
 
