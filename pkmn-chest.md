@@ -8,6 +8,24 @@ redirect_from:
   - pokemon-chest
 ---
 
+<style>
+.gallery { width: 512px }
+.gallery .gallery-thumbnails img {
+  width: 64px;
+  margin: 3px 10px 10px 0;
+  padding: 0;
+  transition: 0.2s;
+}
+.gallery .gallery-thumbnails img:hover {
+  box-shadow: #BF0300 2px 2px 4px;
+  cursor: pointer;
+}
+#preview {
+  display:block;
+  margin:0 auto;
+}
+</style>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script>
   $(document).ready(function() {
@@ -54,19 +72,29 @@ Latest version is: [latest](https://github.com/Universal-Team/pkmn-chest/release
 [Dowload nightly .cia](https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.cia){: .btn}
 
 ## Screenshots
-![Top Menu](assets/images/pkmn-chest/topMenu.png) ![Box](assets/images/pkmn-chest/box.png)
-
-![Wallpaper](assets/images/pkmn-chest/wallpaper.png) ![X Menu](assets/images/pkmn-chest/xMenu.png)
-
-![Options](assets/images/pkmn-chest/options.gif) ![Party](assets/images/pkmn-chest/party.png)
-
-![Summary](assets/images/pkmn-chest/summary.png) ![Species](assets/images/pkmn-chest/species.png)
-
-![Natures](assets/images/pkmn-chest/natures.png) ![balls](assets/images/pkmn-chest/balls.png)
-
-![forms](assets/images/pkmn-chest/forms.png) ![moves](assets/images/pkmn-chest/moves.png)
-
-![stats](assets/images/pkmn-chest/stats.png) ![origin](assets/images/pkmn-chest/origin.png)
+<div class="gallery">
+  <div class="preview">
+    <img id="preview" src="/assets/images/pkmn-chest/topMenu1.png" alt="Preview image" height="194" width="258"/>
+  </div>
+  <div class="gallery-thumbnails" style="margin:0 auto;text-align:center;width:512px;">
+    <img onclick="document.getElementById('preview').src = document.getElementById('img0').src;" id="img0" src="/assets/images/pkmn-chest/topMenu1.png" alt="Top Menu (Top Screen)"/>
+    <img onclick="document.getElementById('preview').src = document.getElementById('img1').src;" id="img1" src="/assets/images/pkmn-chest/topMenu2.png" alt="Top Menu (Bottom Screen)"/>
+    <img onclick="document.getElementById('preview').src = document.getElementById('img2').src;" id="img2" src="/assets/images/pkmn-chest/box1.png" alt="Box (Top Screen)"/>
+    <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="/assets/images/pkmn-chest/box2.png" alt="Box (Bottom Screen)"/>
+    <img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="/assets/images/pkmn-chest/wallpaper.png" alt="Wallpaper"/>
+    <img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="/assets/images/pkmn-chest/xMenu.png" alt="X Menu"/>
+    <img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="/assets/images/pkmn-chest/options.gif" alt="Options"/>
+    <img onclick="document.getElementById('preview').src = document.getElementById('img7').src;" id="img7" src="/assets/images/pkmn-chest/party.png" alt="Party"/>
+    <img onclick="document.getElementById('preview').src = document.getElementById('img8').src;" id="img8" src="/assets/images/pkmn-chest/summary.png" alt="Summary"/>
+    <img onclick="document.getElementById('preview').src = document.getElementById('img9').src;" id="img9" src="/assets/images/pkmn-chest/species.png" alt="Species"/>
+    <img onclick="document.getElementById('preview').src = document.getElementById('imgA').src;" id="imgA" src="/assets/images/pkmn-chest/natures.png" alt="Natures"/>
+    <img onclick="document.getElementById('preview').src = document.getElementById('imgB').src;" id="imgB" src="/assets/images/pkmn-chest/balls.png" alt="Balls"/>
+    <img onclick="document.getElementById('preview').src = document.getElementById('imgC').src;" id="imgC" src="/assets/images/pkmn-chest/forms.png" alt="Forms"/>
+    <img onclick="document.getElementById('preview').src = document.getElementById('imgD').src;" id="imgD" src="/assets/images/pkmn-chest/moves.png" alt="Moves"/>
+    <img onclick="document.getElementById('preview').src = document.getElementById('imgE').src;" id="imgE" src="/assets/images/pkmn-chest/stats.png" alt="Stats"/>
+    <img onclick="document.getElementById('preview').src = document.getElementById('imgF').src;" id="imgF" src="/assets/images/pkmn-chest/origin.png" alt="Origin"/>
+  </div>
+</div>
 
 ## Contact
 The best way to talk to us is to join our Discord:
