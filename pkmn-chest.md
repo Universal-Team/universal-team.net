@@ -17,7 +17,7 @@ redirect_from:
   transition: 0.2s;
 }
 .gallery .gallery-thumbnails img:hover {
-  box-shadow: #BF0300 2px 2px 4px;
+  box-shadow: {{ page.color }} 2px 2px 4px;
   cursor: pointer;
 }
 #preview {
