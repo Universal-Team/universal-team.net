@@ -101,6 +101,10 @@ Japanese
 Lithuanian
 - [lemonnade0](https://steamcommunity.com/profiles/76561198276444028)
 
+Portuguese
+- [Chips](https://github.com/Ch1p5)
+- [David Pires](https://github.com/DavidPires)
+
 Russian
 - [_Mapple²](https://gitlab.com/of228lo)
 
