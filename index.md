@@ -28,7 +28,7 @@ We're a group of people working on homebrew apps for the Nintendo DS(i), Nintend
 
 [Universal-Updater](universal-updater){: .btn}
 
-> A universally good updater!
+> A universally good updater for Nintendo 3DS.
 
 ### People
 - ![](https://avatars3.githubusercontent.com/u/38171335?s=32){: .pfp} [FlameKat53](https://github.com/FlameKat53)

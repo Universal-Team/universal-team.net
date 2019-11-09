@@ -32,7 +32,14 @@ redirect_from:
 
 > A universally good updater for Nintendo 3DS.
 
-Universal-Updater is a universally good updater. A description of it coming soon!
+Universal-Updater is a 3DS homebrew that allows easy installation and updating of other 3DS homebrew!
+
+Some features include:
+
+- Flexible and easy to make scripts
+- Pre-made scripts that anyone can submit available for download from within the app
+- Translated to English, French, German, Italian, Japanese, Lithuanian, Portuguese, Russian, and Spanish
+- Customizable interface colors
 
 ## Wiki
 You can visit Universal-Updater's Wiki for more information about Universal-Updater and it's Features:
@@ -52,6 +59,17 @@ Latest version is: [latest](https://github.com/Universal-Team/Universal-Updater/
 
 [Dowload nightly .3dsx](https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.3dsx){: .btn}
 [Dowload nightly .cia](https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.cia){: .btn}
+
+## Screenshots
+
+Here are some Screenshots from Universal-Updater:
+
+![mainMenu](assets/images/universal-updater/mainMenu.png)
+![colors](assets/images/universal-updater/colors.png)
+![language](assets/images/universal-updater/language.png)
+![scriptList](assets/images/universal-updater/scriptList.png)
+![scriptEntry](assets/images/universal-updater/scriptEntry.png)
+![scriptBrowse](assets/images/universal-updater/scriptBrowse.png)
 
 ## Contact
 The best way to talk to us is to join our Discord:
@@ -74,11 +92,17 @@ French
 German
 - [VoltZ](https://github.com/SuperSaiyajinVoltZ)
 
+Italian
+- [Roby Spia](https://crowdin.com/profile/robyspia67)
+
 Japanese
 - [Epicpkmn11](https://github.com/Epicpkmn11)
 
 Lithuanian
 - [lemonnade0](https://steamcommunity.com/profiles/76561198276444028)
+
+Russian
+- [_Mapple²](https://gitlab.com/of228lo)
 
 Spanish
 - [YoSoy](https://twitter.com/riku200)
