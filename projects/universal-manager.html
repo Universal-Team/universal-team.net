@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Universal-Manager | Universal-Team</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-sm navbar-light bg-light">
+		<div class="container-fluid maxwidth">
+			<a class="clean" href="../index.html">
+				<img class="site-icon" src="../images/icons/universal-team.png" alt="Universal-Team logo" height="48" width="48">
+			</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+					<li class="nav-item dropdown">
+						<a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="leafedit.html">LeafEdit</a>
+							<a class="dropdown-item" href="pkmn-chest.html">pkmn-chest</a>
+							<a class="dropdown-item" href="relaunch.html">Relaunch</a>
+							<a class="dropdown-item" href="universal-manager.html">Universal-Manager</a>
+							<a class="dropdown-item" href="universal-updater.html">Universal-Updater</a>
+						</div>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="../about.html">About</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<main>
+		<div class="container-fluid">
+			<div class="row text-center">
+				<div class="p-2 col-sm-12 bg-warning rounded">
+					<h2>Notice: Universal-Manager is no longer being updated.</h2>
+					<p>
+						We recommend using <a href="universal-updater.html">Universal-Updater</a> instead for updating.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<h1 class="text-center">
+						<img src="../images/icons/universal-manager.png" height="48" widht="48">
+						Universal-Manager
+					</h1>
+					<blockquote>Multimedia tool for Nintendo DSi, Nintendo 3DS and Nintendo Switch.</blockquote>
+	
+					<p>
+						Universal-Manager is a Multimedia Tool for the Nintendo DSi, Nintendo 3DS and Nintendo Switch.<br>
+						Currently the Nintendo 3DS Version is the most complete one, it has a lot of features!
+					</p>
+					<p>Example Features are:</p>
+					<ul>
+						<li>Listening to music with Universal-Manager's music player!</li>
+						<li>View images up to 1024x576 pixels with Universal-Manager's image viewer!</li>
+						<li>Customize the colors from the bars to the BG's and much more in the settings!</li>
+						<li>Transfer files wirelessly via Universal-Manager's FTP server!</li>
+						<li>Update homebrew and apps like TWiLight Menu++ or nds-bootstrap or even download Pokémon Chest!</li>
+					</ul>
+					<p>
+						There is much more to discover in Universal-Manager! ;P
+					</p>
+				</div>
+			</div>
+			<hr>
+			<div class="row text-center">
+				<div class="col-sm-8">
+					<h2>Download Universal-Manager</h2>
+					<p>
+						The latest version is: <a id="latestVersion" href="https://github.com/Universal-Team/Universal-Manager/releases/latest" target="_blank">latest</a>
+					</p>
+				</div>
+				<div class="col-sm-2">
+					<a class="hidden" href="#" id="n3dsxDownload">Download 3DSX</a><br>
+					<a class="hidden" href="#" id="ciaDownload">Download CIA</a><br>
+					<a class="hidden" href="#" id="ndsDownload">Download NDS</a><br>
+					<a class="hidden" href="#" id="nroDownload">Download NRO</a><br>
+					<a class="btn btn-dark" href="https://github.com/Universal-Team/Universal-Manager/releases/latest" target="_blank">Release Page</a><br>
+				</div>
+				<div class="col-sm-2">
+					<a class="btn btn-secondary" href="https://github.com/Universal-Team/extras/raw/master/builds/Universal-Manager/Universal-Manager.3dsx">Nightly 3DSX</a><br>
+					<a class="btn btn-secondary" href="https://github.com/Universal-Team/extras/raw/master/builds/Universal-Manager/Universal-Manager.cia">Nightly CIA</a><br>
+					<a class="btn btn-secondary" href="https://github.com/Universal-Team/extras/raw/master/builds/Universal-Manager/Universal-Manager.nds">Nightly NDS</a><br>
+					<a class="btn btn-secondary" href="https://github.com/Universal-Team/extras/raw/master/builds/Universal-Manager/Universal-Manager.nro">Nightly NRO</a><br>
+					<a class="btn btn-secondary" href="#" data-toggle="collapse" data-target="#qr">Nightly QR</a>
+					<div id="qr" class="collapse">
+						<img src="https://github.com/Universal-Team/extras/raw/master/builds/Universal-Manager/Universal-Manager.png" alt="Universal-Manager cia QR Code">
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row text-center">
+				<div class="col-sm-12">
+					<h2>Screenshots</h2>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-sm-6">
+					<div class="preview">
+						<img id="preview" src="../images/universal-manager/main-1.png" alt="Preview image" height="480" width="400"/>
+					</div>
+					<br>
+				</div>
+				<div class="col-sm-6">
+					<div class="gallery-thumbnails">
+						<img onclick="document.getElementById('preview').src = document.getElementById('img0').src;" id="img0" src="../images/universal-manager/credits.png" alt="Credits"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img1').src;" id="img1" src="../images/universal-manager/file-browse-1.png" alt="File browse (list)"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img2').src;" id="img2" src="../images/universal-manager/file-browse-2.png" alt="File browse (menu)"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="../images/universal-manager/ftp.png" alt="FTP"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="../images/universal-manager/games.png" alt="Games"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="../images/universal-manager/main-1.png" alt="Main menu (page 1)"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img7').src;" id="img7" src="../images/universal-manager/main-2.png" alt="Main menu (page 2)"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img8').src;" id="img8" src="../images/universal-manager/music-player.png" alt="Music player"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img9').src;" id="img9" src="../images/universal-manager/script-creator.png" alt="Script creator"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img9').src;" id="img9" src="../images/universal-manager/script.png" alt="Script"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('imgA').src;" id="imgA" src="../images/universal-manager/settings.png" alt="Settings"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('imgB').src;" id="imgB" src="../images/universal-manager/text-editor.png" alt="Text editor"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('imgC').src;" id="imgC" src="../images/universal-manager/updater.png" alt="Updater"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="../images/universal-manager/utils.png" alt="Utils"/>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-sm-12">
+					<h2 class="text-center">Credits</h2>
+					<h3>Main Developers</h3>
+					<ul>
+						<li><a href="https://github.com/Epicpkmn11">Epicpkmn11</a>: Helped me a lot with problems or mistakes.</li>
+						<li><a href="https://github.com/SuperSaiyajinStackZ">StackZ</a>: Main developer of Universal-Manager and previously Universal-Updater.</li>
+						<li><a href="https://github.com/Universal-Team">Universal-Team</a>: Without the whole Team, we probably couldn't do such a great application like Universal-Manager with the graphics and such.</li>
+					</ul>
+					<h3>Others</h3>
+					<ul>
+						<li><a href="https://github.com/devkitPro">devkitPro</a>, <a href="https://github.com/fincs">Fincs</a>, <a href="https://github.com/smealum">Smealum</a>, <a href="https://github.com/WinterMute">WinterMute</a>: devkitARM, libnds, libfat, Libctru, Citro2D, Citro3D and LibNX.</li>
+						<li><a href="https://github.com/FlagBrew">FlagBrew</a>: <a href="https://github.com/FlagBrew/PKSM">PKSM</a>'s basic Citro2D GUI stuff, so I was able to work with spritesheets and graphics.</li>
+						<li><a href="https://github.com/FlameKat53">FlameKat53</a>: For helping me out with the Azure things.</li>
+						<li><a href="https://github.com/joel16">Joel16</a>: <a href="https://github.com/joel16/3DShell">3DShell</a>'s FTP, external image, some GUI functions like text drawing and audio code.</li>
+						<li><a href="https://github.com/RocketRobz">RocketRobz</a>: <a href="https://github.com/RocketRobz/PDSX-3D">PDSX-3D</a>'s animated background code.</li>
+						<li><a href="https://github.com/TotallyNotGuy">TotallyNotGuy</a>: For making almost all of the graphics in Universal-Manager.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<small>
+			&copy; 2019 Universal-Team, view
+			<a href="https://github.com/Universal-Team/universal-team.github.io" target="_blank">site</a>
+			or <a href="https://github.com/Universal-Team/Universal-Manager" target="_blank">project</a>
+			source on GitHub.
+		</small>
+		<!-- <i class="fa fa-github" aria-hidden="true"></i> -->
+	</footer>
+
+	<!-- JS for bootstrap -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script>
+		// Get latest download links from API
+		$(document).ready(function() {
+			console.log('1')
+			$.getJSON('https://api.github.com/repos/Universal-Team/Universal-Manager/tags', function(json) {
+				var version = json[0].name;
+			
+				var n3dsxURL = 'https://github.com/Universal-Team/Universal-Manager/releases/download/'+version+'/Universal-Manager.3dsx'
+				var ciaURL = 'https://github.com/Universal-Team/Universal-Manager/releases/download/'+version+'/Universal-Manager.cia'
+				var ndsURL = 'https://github.com/Universal-Team/Universal-Manager/releases/download/'+version+'/Universal-Manager.nds'
+				var nroURL = 'https://github.com/Universal-Team/Universal-Manager/releases/download/'+version+'/Universal-Manager.nro'
+				var releaseURL = 'https://github.com/Universal-Team/Universal-Manager/releases/tag/'+version
+
+				$('#n3dsxDownload').attr('href', n3dsxURL);
+				$('#ciaDownload').attr('href', ciaURL);
+				$('#ndsDownload').attr('href', ndsURL);
+				$('#nroDownload').attr('href', nroURL);
+
+				$('#n3dsxDownload').attr('class', 'btn btn-dark');
+				$('#ciaDownload').attr('class', 'btn btn-dark');
+				$('#ndsDownload').attr('class', 'btn btn-dark');
+				$('#nroDownload').attr('class', 'btn btn-dark');
+
+				$('#latestVersion').html(version)
+				$('#latestVersion').attr('href', releaseURL);
+			});
+		});
+	</script>
+</body>
+
+</html>

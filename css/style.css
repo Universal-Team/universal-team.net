@@ -127,6 +127,10 @@ blockquote {
 	box-shadow: #222 2px 2px 4px;
 	cursor: pointer;
 }
+#preview {
+	max-width: 90%;
+	height: auto;
+}
 
 /* CSS Adjustments for Tablets */
 @media only screen and (max-width: 1024px) {

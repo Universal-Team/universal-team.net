@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Relaunch | Universal-Team</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-sm navbar-light bg-light">
+		<div class="container-fluid maxwidth">
+			<a class="clean" href="../index.html">
+				<img class="site-icon" src="../images/icons/universal-team.png" alt="Universal-Team logo" height="48" width="48">
+			</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+					<li class="nav-item dropdown">
+						<a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="leafedit.html">LeafEdit</a>
+							<a class="dropdown-item" href="pkmn-chest.html">pkmn-chest</a>
+							<a class="dropdown-item" href="relaunch.html">Relaunch</a>
+							<a class="dropdown-item" href="universal-manager.html">Universal-Manager</a>
+							<a class="dropdown-item" href="universal-updater.html">Universal-Updater</a>
+						</div>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="../about.html">About</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<main>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1 class="text-center">
+						<img src="../images/icons/relaunch.png" height="48" widht="48">
+						Relaunch
+					</h1>
+					<blockquote>Open-source lookalike of nocash’s Unlaunch.dsi</blockquote>
+	
+					<h3>Basic Setup</h3>
+					<ol>
+						<li>Get some .nds homebrew. (You can get some <a href="https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications">here</a>)</li>
+						<li>Start Relaunch and hold A and B.</li>
+						<li>Head to Options and choose your hotkey apps.</li>
+						<li>Start Relaunch again and hold the button corresponding to the app you want to launch.</li>
+					</ol>
+
+					<h3>Advanced Usage</h3>
+					<ul>
+						<li>You can edit the `Relaunch.ini` file and set custom paths, names, and file extensions for your files, you can also do this in the Relaunch menu.</li>
+						<li>Hold `A` + `B` on boot in order to open the menu.</li>
+						<li>There are prebuilt nightlies of Relaunch avaliable on <a href="https://github.com/Universal-Team/extras/tree/master/builds">Universal-Team/extras</a></li>
+
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<div class="row text-center">
+				<div class="col-sm-8">
+					<h2>Download Relaunch</h2>
+					<p>
+						The latest version is: <a id="latestVersion" href="https://github.com/Universal-Team/Relaunch/releases/latest" target="_blank">latest</a>
+					</p>
+				</div>
+				<div class="col-sm-2">
+					<a class="hidden" href="#" id="7zDownload">Download 7Z</a><br>
+					<a class="btn btn-dark" href="https://github.com/Universal-Team/Relaunch/releases/latest" target="_blank">Release Page</a><br>
+				</div>
+				<div class="col-sm-2">
+					<a class="btn btn-secondary" href="https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z">Nightly 7Z</a><br>
+				</div>
+			</div>
+			<hr>
+			<div class="row text-center">
+				<div class="col-sm-12">
+					<h2>Screenshots</h2>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-sm-6">
+					<div class="preview">
+						<img id="preview" src="../images/relaunch/top-menu-1.png" alt="Preview image" height="194" width="258"/>
+					</div>
+					<br>
+				</div>
+				<div class="col-sm-6">
+					<div class="gallery-thumbnails">
+						<img onclick="document.getElementById('preview').src = document.getElementById('img0').src;" id="img0" src="../images/relaunch/top-menu-1.png" alt="Top Menu (Top Screen)"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img1').src;" id="img1" src="../images/relaunch/top-menu-2.png" alt="Top Menu (Bottom Screen)"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img2').src;" id="img2" src="../images/relaunch/box-1.png" alt="Box (Top Screen)"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="../images/relaunch/box-2.png" alt="Box (Bottom Screen)"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="../images/relaunch/wallpaper.png" alt="Wallpaper"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="../images/relaunch/x-menu.png" alt="X Menu"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="../images/relaunch/options.gif" alt="Options"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img7').src;" id="img7" src="../images/relaunch/party.png" alt="Party"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img8').src;" id="img8" src="../images/relaunch/summary.png" alt="Summary"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img9').src;" id="img9" src="../images/relaunch/species.png" alt="Species"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('imgA').src;" id="imgA" src="../images/relaunch/natures.png" alt="Natures"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('imgB').src;" id="imgB" src="../images/relaunch/balls.png" alt="Balls"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('imgC').src;" id="imgC" src="../images/relaunch/forms.png" alt="Forms"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('imgD').src;" id="imgD" src="../images/relaunch/moves.png" alt="Moves"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('imgE').src;" id="imgE" src="../images/relaunch/stats.png" alt="Stats"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('imgF').src;" id="imgF" src="../images/relaunch/origin.png" alt="Origin"/>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-sm-12">
+					<h2 class="text-center">Credits</h2>
+					<ul>
+						<li><a href="https://github.com/FlameKat53">Flame</a>: The main developer of Relaunch</li>
+						<li><a href="https://github.com/Epicpkmn11">Epicpkmn11</a>: Implementing tons of minor and some major additions I couldn't get to work .-.</li>
+						<li><a href="http://problemkaputt.de">nocash</a>: Creating <a href="http://problemkaputt.de/unlaunch.htm">Unlaunch</a>, which this app is inspired by.</li>
+						<li><a href="https://github.com/RocketRobz">RocketRobz</a>: Creating <a href="https://github.com/RocketRobz/GodMode9i">GodMode9i</a>, the base of the Relaunch Menu.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<small>
+			&copy; 2019 Universal-Team, view
+			<a href="https://github.com/Universal-Team/universal-team.github.io" target="_blank">site</a>
+			or <a href="https://github.com/Universal-Team/Relaunch" target="_blank">project</a>
+			source on GitHub.
+		</small>
+		<!-- <i class="fa fa-github" aria-hidden="true"></i> -->
+	</footer>
+
+	<!-- JS for bootstrap -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script>
+		// Get latest download links from API
+		$(document).ready(function() {
+			console.log('1')
+			$.getJSON('https://api.github.com/repos/Universal-Team/Relaunch/tags', function(json) {
+				var version = json[0].name;
+			
+				var zURL = 'https://github.com/Universal-Team/Relaunch/releases/download/'+version+'/Relaunch.7z'
+				var releaseURL = 'https://github.com/Universal-Team/Relaunch/releases/tag/'+version
+			
+				$('#7zDownload').attr('href', zURL);
+				$('#7zDownload').attr('class', 'btn btn-dark');
+				$('#latestVersion').html(version)
+				$('#latestVersion').attr('href', releaseURL);
+			});
+		});
+	</script>
+</body>
+
+</html>
