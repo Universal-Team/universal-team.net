@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Source+Sans+Pro&display=swap');
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Quicksand', sans-serif;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* Navigation bar */
+nav ul {
+	list-style-type: none;
+}
+
+i.fa {
+	font-size: 40px;
+}
+
+footer {
+	text-align: center;
+	background-color: #222;
+	color: white;
+	padding: 10px;
+}
+
+a {
+	color: #599dd2;
+}
+
+a:hover {
+	color: #599dd2;
+}
+
+blockquote {
+	margin: 10px 20px;
+	padding: 5px 10px;
+	font-size: 17.5px;
+	border-left: 5px solid #eee;
+	color: #777;
+}
+
+#homehero {
+	background-image: url(images/cedar-lake-minneapolis.jpg);
+	height: 200px;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.clean {
+	color: #222;
+}
+
+.clean:hover {
+	color: #222;
+	text-decoration: none;
+}
+
+.header {
+	color: white;
+	padding: 60px 0px 0px 10px;
+}
+
+.site-icon {
+	margin-right: 10px;
+}
+
+.grid-tile {
+	color: #222;
+	background-color: #eee;
+	margin: 10px;
+	padding: 5px;
+	transition: .1s;
+	border-radius: 10px;
+}
+
+.grid-tile:hover {
+	box-shadow: 0 0 10px #222;
+}
+
+.grid-label {
+	/* margin: 30px; */
+	padding: 10px 20px 0 10px;
+	font-size: 17.5px;
+}
+
+.hidden {
+	display: none;
+}
+
+.btn {
+	margin: 3px;
+}
+
+.bg-bar {
+	width: 100%;
+	height: auto;
+	left: 0;
+}
+
+.maxwidth {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.row {
+	padding: 30px 0;
+}
+
+/* Image gallery */
+.gallery-thumbnails {
+	max-width: 512px;
+}
+.gallery-thumbnails img {
+	width: 64px;
+	margin: 3px 10px 10px 0;
+	padding: 0;
+	transition: 0.2s;
+}
+.gallery-thumbnails img:hover {
+	box-shadow: #222 2px 2px 4px;
+	cursor: pointer;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1 {
+		font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 1.5em;
+	}
+
+	.site-title {
+		margin-left: 0;
+	}
+}
+

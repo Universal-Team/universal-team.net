@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>LeafEdit | Universal-Team</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-sm navbar-light bg-light">
+		<div class="container-fluid maxwidth">
+			<a class="clean" href="../index.html">
+				<img class="site-icon" src="../images/icons/universal-team.png" alt="Universal-Team logo" height="48" width="48">
+			</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+					<li class="nav-item dropdown">
+						<a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="leafedit.html">LeafEdit</a>
+							<a class="dropdown-item" href="pkmn-chest.html">pkmn-chest</a>
+							<a class="dropdown-item" href="relaunch.html">Relaunch</a>
+							<a class="dropdown-item" href="universal-manager.html">Universal-Manager</a>
+							<a class="dropdown-item" href="universal-updater.html">Universal-Updater</a>
+						</div>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="../about.html">About</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<main>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1 class="text-center">
+						<img src="../images/icons/leafedit.png" height="48" widht="48">
+						LeafEdit
+					</h1>
+					<blockquote>A work in progress Animal Crossing: New Leaf save manager and editor for the Nintendo 3DS.</blockquote>
+
+					<p>
+						LeafEdit is a work in progress Animal Crossing: New Leaf save manager and editor for the Nintendo 3DS!
+					</p>
+					<p>Features include:</p>
+					<ul>
+						<li>Changing player info such as name, tan, and money
+						<li>Editing the items in inventories
+						<li>Editing the layout of your village
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<div class="row text-center">
+				<div class="col-sm-8">
+					<h2>Download LeafEdit</h2>
+					<p>
+						The latest version is: <a id="latestVersion" href="https://github.com/Universal-Team/LeafEdit/releases/latest">latest</a>
+					</p>
+				</div>
+				<div class="col-sm-2">
+					<a class="hidden" href="#" id="3dsxDownload">Download 3DSX</a><br>
+					<a class="hidden" href="#" id="ciaDownload">Download CIA</a><br>
+					<a class="btn btn-dark" href="https://github.com/Universal-Team/LeafEdit/releases/latest">Release Page</a>
+				</div>
+				<div class="col-sm-2">
+					<a class="btn btn-secondary" href="https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.3dsx">Nightly 3DSX</a><br>
+					<a class="btn btn-secondary" href="https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.cia">Nightly CIA</a><br>
+					<a class="btn btn-secondary" href="#" data-toggle="collapse" data-target="#qr">Nightly QR</a>
+					<div id="qr" class="collapse">
+						<img src="https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.png" alt="LeafEdit cia QR Code">
+					</div>
+				</div>
+				
+			</div>
+			<hr>
+			<div class="row text-center">
+				<div class="col-sm-12">
+					<h2>Screenshots</h2>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-sm-6">
+					<div class="preview">
+						<img id="preview" src="../images/LeafEdit/top-menu-1.png" alt="Preview image" height="194" width="258"/>
+					</div>
+					<br>
+				</div>
+				<div class="col-sm-6">
+					<div class="gallery-thumbnails">
+						<img onclick="document.getElementById('preview').src = document.getElementById('img0').src;" id="img0" src="../images/LeafEdit/top-menu-1.png" alt="Top Menu (Top Screen)"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img1').src;" id="img1" src="../images/LeafEdit/top-menu-2.png" alt="Top Menu (Bottom Screen)"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img2').src;" id="img2" src="../images/LeafEdit/box-1.png" alt="Box (Top Screen)"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="../images/LeafEdit/box-2.png" alt="Box (Bottom Screen)"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="../images/LeafEdit/wallpaper.png" alt="Wallpaper"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="../images/LeafEdit/x-menu.png" alt="X Menu"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="../images/LeafEdit/options.gif" alt="Options"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img7').src;" id="img7" src="../images/LeafEdit/party.png" alt="Party"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img8').src;" id="img8" src="../images/LeafEdit/summary.png" alt="Summary"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img9').src;" id="img9" src="../images/LeafEdit/species.png" alt="Species"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('imgA').src;" id="imgA" src="../images/LeafEdit/natures.png" alt="Natures"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('imgB').src;" id="imgB" src="../images/LeafEdit/balls.png" alt="Balls"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('imgC').src;" id="imgC" src="../images/LeafEdit/forms.png" alt="Forms"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('imgD').src;" id="imgD" src="../images/LeafEdit/moves.png" alt="Moves"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('imgE').src;" id="imgE" src="../images/LeafEdit/stats.png" alt="Stats"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('imgF').src;" id="imgF" src="../images/LeafEdit/origin.png" alt="Origin"/>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row">					
+				<div class="col-sm-12">
+					<h2 class="text-center">Credits</h2>
+					<h3>Main Developers</h3>
+					<ul>
+						<li><a href="https://github.com/SuperSaiyajinVoltZ">VoltZ</a>: App idea and main developer.</li>
+					</ul>
+					<h3>Translators</h3>
+					<ul>
+						<li><a href="https://github.com/antoine62">antoine62</a>: French</li>
+						<li><a href="https://github.com/Ch1p5">Chips</a>: Portuguese</li>
+						<li><a href="https://github.com/Daniyel33">Daniyel33</a>: Spanish</li>
+						<li><a href="https://github.com/DavidPires">David Pires</a>: Portuguese</li>
+						<li><a href="https://github.com/edo9300">edo9300</a>: Italian</li>
+						<li><a href="https://github.com/Epicpkmn11">Epicpkmn11</a>: Japanese, some English</li>
+						<li><a href="https://steamcommunity.com/profiles/76561198276444028">lemonnade0</a>: Lithuanian</li>
+						<li><a href="https://github.com/SuperSaiyajinVoltZ">VoltZ</a>: German and English</li>
+						<li><a href="https://twitter.com/riku200">YoSoy</a>: Spanish</li>
+					</ul>
+					<h3>Others</h3>
+					<ul>
+						<li><a href="https://github.com/Cuyler36">Cuyler</a>, <a href="https://github.com/Slattz">Slattz</a>, <a href="https://github.com/Slattz/NLTK">NLTK</a>: For the core part and the acres, items and villager sprites!</li>
+						<li><a href="https://github.com/devkitPro">devkitPro</a>, <a href="https://github.com/fincs">Fincs</a>, <a href="https://github.com/smealum">Smealum</a>, <a href="https://github.com/WinterMute">WinterMute</a>: For devkitARM, Citro2D, Citro3D and Libctru.</li>
+						<li><a href="https://github.com/FlagBrew">Flagbrew</a>: <a href="https://github.com/FlagBrew/Checkpoint">Checkpoint</a>'s code for the backup & restore part, <a href="https://github.com/FlagBrew/PKSM">PKSM</a>'s title code, for getting Animal Crossing: New Leaf's title ID.</li>
+						<li><a href="https://github.com/FlameKat53">Flame</a>: The name idea for LeafEdit.</li>
+						<li><a href="https://github.com/Kodtiz3D">Kodtiz3D</a>: For the icon and the banner.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<small>
+			&copy; 2019 Universal-Team, view
+			<a href="https://github.com/Universal-Team/universal-team.github.io">site</a>
+			or <a href="https://github.com/Universal-Team/LeafEdit">project</a>
+			source on GitHub.
+		</small>
+		<!-- <i class="fa fa-github" aria-hidden="true"></i> -->
+	</footer>
+
+	<!-- JS for bootstrap -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script>
+		// Get latest download links from API
+		$(document).ready(function() {
+			console.log('1')
+			$.getJSON('https://api.github.com/repos/Universal-Team/LeafEdit/tags', function(json) {
+				var version = json[0].name;
+				console.log(json[0].name)
+			
+				var ndsURL = 'https://github.com/Universal-Team/LeafEdit/releases/download/'+version+'/LeafEdit.3dsx'
+				var ciaURL = 'https://github.com/Universal-Team/LeafEdit/releases/download/'+version+'/LeafEdit.cia'
+				var releaseURL = 'https://github.com/Universal-Team/LeafEdit/releases/tag/'+version
+			
+				$('#3dsxDownload').attr('href', ndsURL);
+				$('#ciaDownload').attr('href', ciaURL);
+				$('#3dsxDownload').attr('class', 'btn btn-dark');
+				$('#ciaDownload').attr('class', 'btn btn-dark');
+				$('#latestVersion').html(version)
+				$('#latestVersion').attr('href', releaseURL);
+			});
+		});
+	</script>
+</body>
+
+</html>

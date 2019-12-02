@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>pkmn-chest | Universal-Team</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-sm navbar-light bg-light">
+		<div class="container-fluid maxwidth">
+			<a class="clean" href="../index.html">
+				<img class="site-icon" src="../images/icons/universal-team.png" alt="Universal-Team logo" height="48" width="48">
+			</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+					<li class="nav-item dropdown">
+						<a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="leafedit.html">LeafEdit</a>
+							<a class="dropdown-item" href="pkmn-chest.html">pkmn-chest</a>
+							<a class="dropdown-item" href="relaunch.html">Relaunch</a>
+							<a class="dropdown-item" href="universal-manager.html">Universal-Manager</a>
+							<a class="dropdown-item" href="universal-updater.html">Universal-Updater</a>
+						</div>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="../about.html">About</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<main>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1 class="text-center">
+						<img src="../images/icons/pkmn-chest.png" height="48" widht="48">
+						Pokémon Chest
+					</h1>
+					<blockquote>A Pokémon Bank for 4th and 5th generation Pokémon games for the Nintendo DS(i).</blockquote>
+	
+					<p>
+						Pokémon Chest is an app for the DS(i) that can store and edit Pokémon in the DS Pokémon games.
+					</p>
+					<p>It's current features include:</p>
+					<ul>
+						<li>Loading save files from DSi SD, Flashcard SD, and retail cartridges</li>
+						<li>Storing up to <abbr title="(Flashcards)">50</abbr> or <abbr title="(DSi/3DS)">500</abbr> boxes of Pokémon per chest with support for multiple chests</li>
+						<li>Editing most Pokémon, trainer, and other save data</li>
+						<li>Injecting pk4/pk5 files from SD</li>
+						<li>Dumping Pokémon to pk4/pk5 files</li>
+						<li>Translated to English, French, German, Italian, Japanese, Korean*, Lithuanian, Portuguese, Russian, and Spanish</li>
+						<ul>
+							<li>*(the Korean translation is incomplete)</li>
+						</ul>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<div class="row text-center">
+				<div class="col-sm-8">
+					<h2>Download pkmn-chest</h2>
+					<p>
+						The latest version is: <a id="latestVersion" href="https://github.com/Universal-Team/pkmn-chest/releases/latest">latest</a>
+					</p>
+				</div>
+				<div class="col-sm-2">
+					<a class="hidden" href="#" id="ndsDownload">Download NDS</a><br>
+					<a class="hidden" href="#" id="ciaDownload">Download CIA</a><br>
+					<a class="btn btn-dark" href="https://github.com/Universal-Team/pkmn-chest/releases/latest">Release Page</a><br>
+				</div>
+				<div class="col-sm-2">
+					<a class="btn btn-secondary" href="https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.nds">Nightly NDS</a><br>
+					<a class="btn btn-secondary" href="https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.cia">Nightly CIA</a><br>
+					<a class="btn btn-secondary" href="#" data-toggle="collapse" data-target="#qr">Nightly QR</a>
+					<div id="qr" class="collapse">
+						<img src="https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.png" alt="pkmn-chest cia QR Code">
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row text-center">
+				<div class="col-sm-12">
+					<h2>Screenshots</h2>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-sm-6">
+					<div class="preview">
+						<img id="preview" src="../images/pkmn-chest/top-menu-1.png" alt="Preview image" height="194" width="258"/>
+					</div>
+					<br>
+				</div>
+				<div class="col-sm-6">
+					<div class="gallery-thumbnails">
+						<img onclick="document.getElementById('preview').src = document.getElementById('img0').src;" id="img0" src="../images/pkmn-chest/top-menu-1.png" alt="Top Menu (Top Screen)"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img1').src;" id="img1" src="../images/pkmn-chest/top-menu-2.png" alt="Top Menu (Bottom Screen)"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img2').src;" id="img2" src="../images/pkmn-chest/box-1.png" alt="Box (Top Screen)"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="../images/pkmn-chest/box-2.png" alt="Box (Bottom Screen)"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="../images/pkmn-chest/wallpaper.png" alt="Wallpaper"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="../images/pkmn-chest/x-menu.png" alt="X Menu"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="../images/pkmn-chest/options.gif" alt="Options"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img7').src;" id="img7" src="../images/pkmn-chest/party.png" alt="Party"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img8').src;" id="img8" src="../images/pkmn-chest/summary.png" alt="Summary"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('img9').src;" id="img9" src="../images/pkmn-chest/species.png" alt="Species"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('imgA').src;" id="imgA" src="../images/pkmn-chest/natures.png" alt="Natures"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('imgB').src;" id="imgB" src="../images/pkmn-chest/balls.png" alt="Balls"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('imgC').src;" id="imgC" src="../images/pkmn-chest/forms.png" alt="Forms"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('imgD').src;" id="imgD" src="../images/pkmn-chest/moves.png" alt="Moves"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('imgE').src;" id="imgE" src="../images/pkmn-chest/stats.png" alt="Stats"/>
+						<img onclick="document.getElementById('preview').src = document.getElementById('imgF').src;" id="imgF" src="../images/pkmn-chest/origin.png" alt="Origin"/>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-sm-12">
+					<h2 class="text-center">Credits</h2>
+					<h3>Main Developers</h3>
+					<ul>
+						<li><a href="https://github.com/Epicpkmn11">Epicpkmn11</a>: GUI code, porting PKSM's save and bank management code</li>
+					</ul>
+					<h3>Translators</h3>
+					<ul>
+						<li><a href="https://github.com/antoine62">antoine62</a>: French</li>
+						<li><a href="https://github.com/Ch1p5">Chips</a>: Portuguese, some Spanish and French</li>
+						<li><a href="https://github.com/DavidPires">David Pires</a>: Portuguese</li>
+						<li><a href="https://github.com/edo9300">edo9300</a>: Italian</li>
+						<li><a href="https://github.com/Epicpkmn11">Epicpkmn11</a>: English and Japanese</li>
+						<li><a href="https://twitter.com/@ExtocineN">Extocine</a>: Russian</li>
+						<li><a href="https://steamcommunity.com/profiles/76561198276444028">lemonnade0</a>: Lithuanian</li>
+						<li><a href="https://github.com/NightYoshi370/">NightYoshi370</a>: French</li>
+						<li><a href="https://github.com/SuperSaiyajinVoltZ">VoltZ</a>: German</li>
+					</ul>
+					<h3>Others</h3>
+					<ul>
+						<li><a href="https://github.com/devkitPro">devkitPro</a>, <a href="https://github.com/WinterMute">WinterMute</a>: devkitARM, libnds, and libfat</li>
+						<li><a href="https://github.com/edo9300">edo9300</a>: <a href="https://github.com/edo9300/ndsi-savedumper">ndsi-savedumper</a>'s gamecard save dumping and injecting code</li>
+						<li><a href="https://github.com/FlagBrew">Flagbrew</a>: <a href="https://github.com/FlagBrew/PKSM">PKSM</a>'s save and bank management code</li>
+						<li><a href="https://github.com/RocketRobz">RocketRobz</a>: Adding flashcard and SD being used together and code from <a href="https://github.com/DS-Homebrew/TWiLightMenu">TWiLight Menu++</a></li>
+						<li><a href="https://github.com/TotallyNotGuy">TotallyNotGuy</a>: Finding & making graphics and the Pokémon Center (Gen 4) song</li>
+						<li><a href="https://github.com/SuperSaiyajinVoltZ">VoltZ</a>: Idea to make a Pokémon Bank for the DS(i)
+					</ul>
+					<h3>Music</h3>
+					<ul>
+						<li><a href="https://modarchive.org/module.php?181718">Pokémon Center (Gen 1)</a></li>
+						<li><a href="https://modarchive.org/module.php?181711">Elm's Lab</a></li>
+						<li><a href="https://modarchive.org/module.php?181717">Oak's Lab</a></li>
+						<li><a href="https://modarchive.org/module.php?181756">Game Corner</a></li>
+						<li><a href="https://modarchive.org/module.php?178770">Twinleaf Town</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<small>
+			&copy; 2019 Universal-Team, view
+			<a href="https://github.com/Universal-Team/universal-team.github.io">site</a>
+			or <a href="https://github.com/Universal-Team/pkmn-chest">project</a>
+			source on GitHub.
+		</small>
+		<!-- <i class="fa fa-github" aria-hidden="true"></i> -->
+	</footer>
+
+	<!-- JS for bootstrap -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script>
+		// Get latest download links from API
+		$(document).ready(function() {
+			console.log('1')
+			$.getJSON('https://api.github.com/repos/Universal-Team/pkmn-chest/tags', function(json) {
+				var version = json[0].name;
+			
+				var ndsURL = 'https://github.com/Universal-Team/pkmn-chest/releases/download/'+version+'/pkmn-chest.nds'
+				var ciaURL = 'https://github.com/Universal-Team/pkmn-chest/releases/download/'+version+'/pkmn-chest.cia'
+				var releaseURL = 'https://github.com/Universal-Team/pkmn-chest/releases/tag/'+version
+			
+				$('#ndsDownload').attr('href', ndsURL);
+				$('#ciaDownload').attr('href', ciaURL);
+				$('#ndsDownload').attr('class', 'btn btn-dark');
+				$('#ciaDownload').attr('class', 'btn btn-dark');
+				$('#latestVersion').html(version)
+				$('#latestVersion').attr('href', releaseURL);
+			});
+		});
+	</script>
+</body>
+
+</html>
