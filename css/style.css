@@ -117,7 +117,7 @@ blockquote {
 	transition: 0.2s;
 }
 .discord:hover {
-	box-shadow: 0 0 10px #222;
+	box-shadow: 0 0 8px #222;
 }
 
 /* Image gallery */
