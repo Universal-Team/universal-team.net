@@ -76,8 +76,8 @@ blockquote {
 	background-color: #eee;
 	margin: 10px;
 	padding: 5px;
-	transition: .1s;
-	border-radius: 10px;
+	transition: 0.2s;
+	border-radius: 0.25rem;
 }
 
 .grid-tile:hover {
@@ -111,6 +111,13 @@ blockquote {
 
 .row {
 	padding: 30px 0;
+}
+
+.discord {
+	transition: 0.2s;
+}
+.discord:hover {
+	box-shadow: 0 0 10px #222;
 }
 
 /* Image gallery */
