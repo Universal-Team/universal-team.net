@@ -45,6 +45,13 @@ blockquote {
 	color: #777;
 }
 
+code {
+	color: #212529;
+	background-color: #e0e0e0;
+	padding: 2px 4px;
+	border-radius: 0.25rem;
+}
+
 #homehero {
 	background-image: url(images/cedar-lake-minneapolis.jpg);
 	height: 200px;
@@ -118,6 +125,13 @@ blockquote {
 }
 .discord:hover {
 	box-shadow: 0 0 8px #222;
+}
+
+.circled {
+	padding: 0 5px;
+	border: #565758 solid 2px;
+	border-radius: 1rem;
+	background-color: #ECEDED;
 }
 
 /* Image gallery */
