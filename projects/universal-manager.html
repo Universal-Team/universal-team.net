@@ -191,7 +191,7 @@
 
 	<footer>
 		<small>
-			&copy; 2019 Universal-Team, view
+			&copy; 2019 <span id="year"></span> Universal-Team, view
 			<a href="https://github.com/Universal-Team/universal-team.github.io" target="_blank">site</a>
 			or <a href="https://github.com/Universal-Team/Universal-Manager" target="_blank">project</a>
 			source on GitHub.
@@ -230,6 +230,11 @@
 				$('#latestVersion').attr('href', releaseURL);
 			});
 		});
+	</script>
+	<script>
+		let year = (new Date()).getFullYear();
+		if(year != 2019)
+			$("#year").html("- "+year);
 	</script>
 </body>
 
