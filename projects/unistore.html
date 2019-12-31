@@ -31,14 +31,14 @@
 	<meta name="msapplication-square310x310logo" content="/images/favicon/mstile-310x310.png">
 
 	<!-- SEO begin -->
-	<meta property="og:title" content="Universal-Updater">
+	<meta property="og:title" content="UniStore">
 	<meta property="og:locale" content="en_US">
-	<meta name="description" content="Universal-Updater | Universal-Team’s official site">
-	<meta property="og:description" content="Universal-Updater | Universal-Team’s official site">
-	<link rel="canonical" href="https://universal-team.github.io/projects/universal-updater.html">
-	<meta property="og:url" content="https://universal-team.github.io/projects/universal-updater.html">
+	<meta name="description" content="UniStore | Universal-Team’s official site">
+	<meta property="og:description" content="UniStore | Universal-Team’s official site">
+	<link rel="canonical" href="https://universal-team.github.io/projects/unistore.html">
+	<meta property="og:url" content="https://universal-team.github.io/projects/unistore.html">
 	<meta property="og:site_name" content="Universal-Team">
-	<meta property="og:image" content="https://universal-team.github.io/images/icons/universal-updater.png">
+	<meta property="og:image" content="https://universal-team.github.io/images/icons/unistore.png">
 	<!-- SEO end -->
 </head>
 
@@ -57,7 +57,7 @@
 				<ul class="navbar-nav">
 					<li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
 					<li class="nav-item dropdown">
-						<a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 							<a class="dropdown-item" href="leafedit.html">LeafEdit</a>
 							<a class="dropdown-item" href="pkmn-chest.html">pkmn-chest</a>
@@ -67,7 +67,7 @@
 						</div>
 					</li>
 					<li class="nav-item"><a class="nav-link" href="../about.html">About</a></li>
-					<li class="nav-item"><a class="nav-link" href="unistore.html">UniStore</a></li>
+					<li class="nav-item active"><a class="nav-link" href="unistore.html">UniStore</a></li>
 				</ul>
 			</div>
 		</div>
@@ -78,50 +78,81 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<h1 class="text-center">
-						<img src="../images/unistore/logo_hd.png" alt="Universal-Team logo" height="200" widht="150">
+						<img src="../images/icons/unistore.png" alt="Universal-Team logo" height="48" width="48">
 						UniStore
 					</h1>
-	
-					<p>
-						<h2>What's UniStore?</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3">
+					<h2>What's UniStore?</h2>
+				</div>
+				<div class="col-sm-9">
+					<p class="lar">
+						UniStore is an app store integrated in Universal-Updater.<br>
+						With it people can host stores so other people can use them.<br>
+						Stores are useful because you can scroll through it and find maybe something useful for you.
 					</p>
-					<h5>UniStore is an app store, which is integrated into Universal-Updater.</h5>
-					<p></p>
-					<h5>With it, people can host stores - so other people can use them.</h5>
-					<p></p>
-					<h5>Stores are useful, because you can scroll through it and find maybe something useful for you.</h5>
-					<ul>
-					</ul>
 				</div>
 			</div>
 			<hr>
-			<h2>How to use UniStore?</h2>
-			</p>
-			<h5>To use UniStore, you need at least the current latest Nightly version of Universal-Updater.</h5>
-			<p></p>
-			<h5>Then you will see a button called "UniStore". Basically with that you access the Screen.</h5>
-			<p></p>
-			<h5>You will be redirected to the SubMenu then.</h5>
+			<div class="row">
+				<div class="col-sm-3">
+					<h2>How to use UniStore?</h2>
+				</div>
+				<div class="col-sm-9">
+					<p>
+						To use UniStore, you need at least the current latest Nightly version of Universal-Updater.<br>
+						Then you will see a button called "UniStore". Basically with that you access the Screen.<br>
+						You will be redirected to the SubMenu then.
+					</p>
+				</div>
+			</div>
 			<hr>
-			<h2>Screenshots</h2>
-			<img src="../images/unistore/mainMenu.png" alt="MainMenu" height="400" widht="240">
-			<img src="../images/unistore/subMenu.png" alt="Sub Menu" height="400" widht="240">
-			<img src="../images/unistore/storeSelection.png" alt="Store Selection" height="400" widht="240">
-			<img src="../images/unistore/store.png" alt="Store" height="400" widht="240">
-			<img src="../images/unistore/storeSearch.png" alt="Store Search" height="400" widht="240">
-			<img src="../images/unistore/storeChange.png" alt="Store Change" height="400" widht="240">
-			<ul>
+			<div class="row text-center">
+				<div class="col-sm-12">
+					<h2>Screenshots</h2>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-sm-6">
+					<div class="preview">
+						<img id="preview" src="../images/unistore/mainMenu.png" alt="Preview image" height="480" width="400">
+					</div>
+					<br>
+				</div>
+				<div class="col-sm-6">
+					<div class="gallery-thumbnails">
+						<img onclick="document.getElementById('preview').src = document.getElementById('img0').src;" id="img0" src="../images/unistore/mainMenu.png" alt="Main menu">
+						<img onclick="document.getElementById('preview').src = document.getElementById('img1').src;" id="img1" src="../images/unistore/subMenu.png" alt="Sub menu">
+						<img onclick="document.getElementById('preview').src = document.getElementById('img2').src;" id="img2" src="../images/unistore/storeSelection.png" alt="Store selection">
+						<img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="../images/unistore/store.png" alt="Store">
+						<img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="../images/unistore/storeSearch.png" alt="Store search">
+						<img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="../images/unistore/storeChange.png" alt="Store change">
+					</div>
+				</div>
+			</div>
 			<hr>
-			<h2>Testing out the Store Search GitHub Function!</h2>
-			<h5>Currently there are 2 stores which can be tested with this function.</h5>
-			<p></p>
-			<h5>If you like to make your store dowloadable with this too, create a folder called "unistore" inside your repo and include a unistore file there.</h5>
-			<p></p>
-			<h5>Those 2 stores are from FlameKat53 and SuperSaiyajinStackZ:</h5>
-			<p></p>
-			<h5>Owner & Repo: "SuperSaiyajinStackZ/Stack-Store", Filename: "Stack-Store.unistore"</h5>
-			<p></p>
-			<h5>Owner & Repo: "FlameKat53/storefront", Filename: "storefront.unistore"</h5>
+			<div class="row">
+				<div class="col-sm-4">
+					<h2>Testing out the Store Search GitHub function!</h2>
+				</div>
+				<div class="col-sm-8">
+					<p>
+						Currently there are two stores which you can get with this function, they are:
+					</p>
+					<ul>
+						<li>Owner & Repo: <code>SuperSaiyajinStackZ/Stack-Store</code>, Filename: <code>Stack-Store.unistore</code></li>
+						<li>Owner & Repo: <code>FlameKat53/storefront</code>, Filename: <code>storefront.unistore</code></li>
+					</ul>
+					<p>
+						If you'd like to make your store dowloadable with this, simply:
+					</p>
+					<ol>
+						<li>Create a folder called <code>unistore</code> inside your repo</li>
+						<li>Include a <code>.unistore</code> file there</li>
+					</ol>
+				</div>
 			</div>
 		</div>
 	</main>
