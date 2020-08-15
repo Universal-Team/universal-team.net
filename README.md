@@ -1,4 +1,4 @@
-# [universal-team.github.io](https://universal-team.github.io)
+# [universal-team.net](https://universal-team.net)
 
 Mostly made by [Pk11](https://github.com/Epicpkmn11), this is the official Universal-Team site.
 
