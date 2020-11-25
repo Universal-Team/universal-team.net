@@ -87,7 +87,15 @@ code {
 	border-radius: 0.25rem;
 }
 
-.grid-tile:hover {
+a .grid-tile:hover {
+	box-shadow: 0 0 10px #222;
+}
+
+.grid-tile a img{
+	transition: 0.2s;
+}
+
+.grid-tile a img:hover {
 	box-shadow: 0 0 10px #222;
 }
 
