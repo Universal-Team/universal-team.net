@@ -31,24 +31,23 @@ screenshots:
    - https://db.universal-team.net/assets/images/screenshots/universal-updater/credits.png
 ---
 
-Universal-Updater is a homebrew application for the Nintendo 3DS with the intention to make downloading other homebrew simple and easy. No need to manually copy files or go through installation processes, as we do that for you.
+Universal-Updater is a homebrew application for the Nintendo 3DS with the intention to make downloading other homebrew simple and easy. No need to manually copy files or go through installation processes, as it does that all for you.
 
 Its features include:
 - A store format with a concept similar to the Cydia Repositories
-   - The default is <a href="https://db.universal-team.net">Universal-DB</a>
-   - Want to add your own? Go to settings, find "Select Unistore", hit the + icon and type the URL or hit the QR button and scan the QR code (if they have one)
-   - Some recommended UniStores are <a href="#unistores">below</a>
+   - The default is [Universal-DB](https://db.universal-team.net)
+   - Want to add more? Go to settings, choose "Select Unistore", click the + icon and select one from the list, enter a URL, or scan a QR code
 - Customization in sorting and display
-   - All sorting keys: "Title", "Author", and "Last Updated"
-   - Direction could be Ascending or Descending
-   - App display could be shown in either a Grid or Rows
+   - Several sorting keys: "Title", "Author", and "Last Updated"
+   - Direction can be Ascending or Descending
+   - App display can be shown in either a grid or rows
 - Background installation so you can keep using the rest of the app while installing
 - Searching and markings to make finding apps easy
 - Viewing screenshots and release notes for apps
 - Shortcuts for easily updating frequently updated apps when using the Homebrew Launcher
 - Translations for users of many languages
-   - To contribute to translations, join our <a href="https://crwd.in/universal-updater">Crowdin</a>
-   - To request a new language, join our <a href="../discord.html">Discord Server</a> or contact a project manager on Crowdin
+   - To contribute to translations, join our [Crowdin project](https://crwd.in/universal-updater)
+   - To request a new language, join our [Discord Server](/discord) or contact a project manager on Crowdin
 
 ----
 
