@@ -6,7 +6,7 @@ image       : "https://universal-team.net/images/icons/universal-team.png"
 
 defaults:
   - scope:
-      path: ["**/*.md", "**/*.html"]
+      path: "**/*.md"
     values:
       layout: project
 
