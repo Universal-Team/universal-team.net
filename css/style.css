@@ -8,6 +8,15 @@ h1, h2, h3 {
 	font-family: 'Quicksand', sans-serif;
 }
 
+h1, h2 {
+	text-align: center;
+}
+
+h1 > img, h2 > img, h3 > img {
+	height: 48px;
+	width: auto;
+}
+
 main {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -31,10 +40,16 @@ footer {
 
 a {
 	color: #599dd2;
+	text-decoration: none;
 }
 
 a:hover {
 	color: #599dd2;
+	text-decoration: underline;
+}
+
+a.clean, a.btn, a.nav-link, a.dropdown-item {
+	text-decoration: none;
 }
 
 blockquote {
@@ -43,6 +58,10 @@ blockquote {
 	font-size: 17.5px;
 	border-left: 5px solid #eee;
 	color: #777;
+}
+
+blockquote > p:last-of-type {
+	margin-bottom: 0;
 }
 
 code {
@@ -64,11 +83,6 @@ code {
 	color: #222;
 }
 
-.clean:hover {
-	color: #222;
-	text-decoration: none;
-}
-
 .header {
 	color: white;
 	padding: 60px 0px 0px 10px;
@@ -78,13 +92,16 @@ code {
 	margin-right: 10px;
 }
 
+.grid-tile-outer {
+	padding: 20px 10px;
+}
+
 .grid-tile {
 	color: #222;
 	background-color: #eee;
-	margin: 10px;
-	padding: 5px;
 	transition: 0.2s;
 	border-radius: 0.25rem;
+	height: 100%;
 }
 
 a .grid-tile:hover {
@@ -140,6 +157,11 @@ a .grid-tile:hover {
 	border: #565758 solid 2px;
 	border-radius: 1rem;
 	background-color: #ECEDED;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+	background-color: #072f4f;
+	color: white!important;
 }
 
 /* Image gallery */

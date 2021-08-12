@@ -1,0 +1,17 @@
+<h2>Screenshots</h2>
+
+<div class="row text-center">
+	<div class="col-sm-6">
+		<div class="preview">
+			<img id="preview" src="{{ page.screenshots[0] }}" alt="Preview image" width="{{ include.width | default: "400"}}" height="{{ include.height | default: "480"}}">
+		</div>
+		<br>
+	</div>
+	<div class="col-sm-6">
+		<div class="gallery-thumbnails">
+			{% for screenshot in page.screenshots %}
+				<img onclick="document.getElementById('preview').src = document.getElementById('img{{ forloop.index0 }}').src;" id="img{{ forloop.index0 }}" src="{{ screenshot}}" alt="{{ screenshot | split: "/" | last | replace: "-", " " | remove: ".png" }}">
+			{% endfor %}
+		</div>
+	</div>
+</div>

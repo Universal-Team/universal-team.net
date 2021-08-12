@@ -1,0 +1,10 @@
+<footer>
+	<small>
+		&copy; 2019-{{ "now" | date: "%Y" }} Universal-Team, view
+		<a href="https://github.com/{{ site.repo }}" target="_blank">site</a>
+		{% if page.repo %}
+			or <a href="https://github.com/{{ page.repo }}" target="_blank">project</a>
+		{% endif %}
+		source on GitHub.
+	</small>
+</footer>

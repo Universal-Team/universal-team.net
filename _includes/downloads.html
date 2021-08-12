@@ -1,0 +1,29 @@
+<h2>Downloads</h2>
+
+<div class="row text-center">
+	{% if page.downloads.release.qr %}
+		<div class="col-sm-4">
+			<img src="{{ page.downloads.release.qr }}" alt="QR code for {{ page.downloads.release.qr | split: "/" | last | remove: ".png" }}">
+		</div>
+	{% endif %}
+	<div class="col-sm-{% if page.downloads.release.qr %}4{% else %}6{% endif %}">
+		{% for item in page.downloads.release.files %}
+			<a class="btn btn-dark" href="https://github.com/{{ page.repo }}/releases/latest/download/{{ item }}">Download {{ item }}</a><br>
+		{% endfor %}
+		<a class="btn btn-dark" href="https://github.com/Universal-Team/Universal-Updater/releases" target="_blank">Release Page</a><br>
+	</div>
+	<div class="col-sm-{% if page.downloads.release.qr %}4{% else %}6{% endif %}">
+		{% for item in page.downloads.nightly.files %}
+			<a class="btn btn-secondary" href="https://github.com/Universal-Team/extras/raw/master/builds/{{ page.title }}/{{ item }}">Nightly {{ item }}</a><br>
+		{% endfor %}
+		{% if page.downloads.nightly.qr %}
+			<a class="btn btn-secondary" href="#" data-bs-toggle="collapse" data-bs-target="#qr">Nightly QR</a>
+			<div id="qr" class="collapse">
+				<img src="{{ page.downloads.nightly.qr }}" alt="QR code for {{ page.downloads.release.qr | split: "/" | last | remove: ".png" }}">
+			</div>
+			<noscript>
+				<img src="{{ page.downloads.nightly.qr }}" alt="QR code for {{ page.downloads.release.qr | split: "/" | last | remove: ".png" }}">
+			</noscript>
+		{% endif %}
+	</div>
+</div>
