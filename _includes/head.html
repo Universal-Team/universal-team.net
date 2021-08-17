@@ -34,5 +34,5 @@
 <link rel="canonical" href="{{ page.url | absolute_url | remove: "index.html" | remove: ".html" }}">
 <meta property="og:url" content="{{ page.url | absolute_url | remove: "index.html" | remove: ".html" }}">
 <meta property="og:site_name" content="Universal-Team">
-<meta property="og:image" content="https://universal-team.net/images/icons/universal-updater.png">
+<meta property="og:image" content="{{ page.image | default: site.image }}">
 <!-- SEO end -->
