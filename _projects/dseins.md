@@ -5,7 +5,7 @@ image: /images/icons/dseins.png
 repo: Universal-Team/3DEins
 downloads:
    release:
-      qr: https://db.universal-team.net/assets/images/qr/dseins.nds.cia.png
+      qr: https://db.universal-team.net/assets/images/qr/dseins.nds-cia.png
       files: [DSEins.nds, DSEins.nds.cia]
    nightly:
       files: [DSEins.nds, DSEins.nds.cia]

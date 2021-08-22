@@ -5,10 +5,10 @@ image: /images/icons/leafedit.png
 repo: Universal-Team/LeafEdit
 downloads:
    release:
-      qr: https://db.universal-team.net/assets/images/qr/leafedit.cia.png
+      qr: https://db.universal-team.net/assets/images/qr/leafedit-cia.png
       files: [LeafEdit.3dsx, LeafEdit.cia]
    nightly:
-      qr: https://db.universal-team.net/assets/images/qr/nightly/leafedit.cia.png
+      qr: https://db.universal-team.net/assets/images/qr/nightly/leafedit-cia.png
       files: [LeafEdit.3dsx, LeafEdit.cia]
 screenshots:
    - /images/leafedit/acreEditorNL.png

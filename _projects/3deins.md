@@ -5,10 +5,10 @@ image: /images/icons/3deins.png
 repo: Universal-Team/3DEins
 downloads:
    release:
-      qr: https://db.universal-team.net/assets/images/qr/3deins.cia.png
+      qr: https://db.universal-team.net/assets/images/qr/3deins-cia.png
       files: [3DEins.3dsx, 3DEins.cia]
    nightly:
-      qr: https://db.universal-team.net/assets/images/qr/nightly/3deins.cia.png
+      qr: https://db.universal-team.net/assets/images/qr/nightly/3deins-cia.png
       files: [3DEins.3dsx, 3DEins.cia]
 screenshots:
    - /images/3deins/charSelection.png

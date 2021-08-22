@@ -5,10 +5,10 @@ image: /images/icons/universal-updater.png
 repo: Universal-Team/Universal-Updater
 downloads:
    release:
-      qr: https://db.universal-team.net/assets/images/qr/universal-updater.cia.png
+      qr: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
       files: [Universal-Updater.3dsx, Universal-Updater.cia]
    nightly:
-      qr: https://db.universal-team.net/assets/images/qr/nightly/universal-updater.cia.png
+      qr: https://db.universal-team.net/assets/images/qr/nightly/universal-updater-cia.png
       files: [Universal-Updater.3dsx, Universal-Updater.cia]
 screenshots:
    - https://db.universal-team.net/assets/images/screenshots/universal-updater/entry-info.png

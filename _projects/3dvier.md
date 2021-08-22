@@ -5,10 +5,10 @@ image: /images/icons/3dvier.png
 repo: Universal-Team/3DVier
 downloads:
    release:
-      qr: https://db.universal-team.net/assets/images/qr/3dvier.cia.png
+      qr: https://db.universal-team.net/assets/images/qr/3dvier-cia.png
       files: [3DVier.3dsx, 3DVier.cia]
    nightly:
-      qr: https://db.universal-team.net/assets/images/qr/nightly/3dvier.cia.png
+      qr: https://db.universal-team.net/assets/images/qr/nightly/3dvier-cia.png
       files: [3DVier.3dsx, 3DVier.cia]
 screenshots:
    - /images/3dvier/charSelection.png

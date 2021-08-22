@@ -5,10 +5,10 @@ image: /images/icons/pkmn-chest.png
 repo: Universal-Team/pkmn-chest
 downloads:
    release:
-      qr: https://db.universal-team.net/assets/images/qr/pkmn-chest.cia.png
+      qr: https://db.universal-team.net/assets/images/qr/pkmn-chest-cia.png
       files: [pkmn-chest.nds, pkmn-chest.cia]
    nightly:
-      qr: https://db.universal-team.net/assets/images/qr/nightly/pkmn-chest.cia.png
+      qr: https://db.universal-team.net/assets/images/qr/nightly/pkmn-chest-cia.png
       files: [pkmn-chest.nds, pkmn-chest.dsi, pkmn-chest.cia]
 screenshots:
    - /images/pkmn-chest/top-menu-1.png
