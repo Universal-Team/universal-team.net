@@ -10,7 +10,7 @@
 		{% for item in page.downloads.release.files %}
 			<a class="btn btn-dark" href="https://github.com/{{ page.repo }}/releases/latest/download/{{ item }}">Download {{ item }}</a><br>
 		{% endfor %}
-		<a class="btn btn-dark" href="https://github.com/Universal-Team/Universal-Updater/releases" target="_blank">Release Page</a><br>
+		<a class="btn btn-dark" href="https://github.com/{{ page.repo }}/releases" target="_blank">Release Page</a><br>
 	</div>
 	<div class="col-sm-{% if page.downloads.release.qr %}4{% else %}6{% endif %}">
 		{% for item in page.downloads.nightly.files %}
