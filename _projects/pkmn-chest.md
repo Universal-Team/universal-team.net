@@ -65,7 +65,7 @@ Its current features include:
 - [Pk11](https://github.com/Epicpkmn11): English and Japanese
 - [Extocine](https://twitter.com/@ExtocineN): Russian
 - [lemonnade0](https://steamcommunity.com/profiles/76561198276444028): Lithuanian
-- [NightScript](https://github.com/NightYoshi370/): French
+- [NightScript](https://github.com/NightScript370/): French
 - [R-YaTian](https://github.com/R-YaTian): Chinese
 - [StackZ](https://github.com/SuperSaiyajinStackZ): German
 - [Viktor Varga](https://github.com/vargaviktor): Hungarian

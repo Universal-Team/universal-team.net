@@ -79,7 +79,7 @@ Its features include:
 ## Credits
 - [SuperSaiyajinStackZ](https://github.com/SuperSaiyajinStackZ) - Lead developer, reworked quirc to C++
 - [Pk11](https://github.com/Epicpkmn11) - Mockup Designer, Website Maintainer
-- [NightScript](https://github.com/NightYoshi370) - Concept Creator & Planner
+- [NightScript](https://github.com/NightScript370) - Concept Creator & Planner
 - [dlbeer](https://github.com/dlbeer) - Original developer of [quirc](https://github.com/dlbeer/quirc)
 - [FlagBrew](https://github.com/FlagBrew): Original QR Code Scanner code
 - [Icons8](https://icons8.com/): Icon Designer
