@@ -4,6 +4,9 @@ repo        : "Universal-Team/universal-team.net"
 color       : "#072f4f"
 image       : "https://universal-team.net/images/icons/universal-team.png"
 
+sass:
+  sass_dir: _sass
+
 defaults:
   - scope:
       path: "**/*.md"

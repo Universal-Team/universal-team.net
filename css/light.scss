@@ -1,0 +1,28 @@
+---
+---
+
+/// Variables
+// Main contents
+$a-color: #599dd2;
+$accent-bg: #072f4f;
+$accent-color: white;
+$blockquote-border: #eee;
+$blockquote-color: #777;
+$code-bg: #e0e0e0;
+$code-color: #212529;
+$dropdown-bg: white;
+$footer-bg: #222;
+$footer-color: white;
+$header-bg: #f8f8f8;
+$header-color: #222;
+$kbd-bg: #fafafa;
+$kbd-border: #ddd;
+$main-bg: white;
+$main-color: #222;
+$tile-bg: #eee;
+$shadow-color: #222;
+
+/// Import base style
+@import "base";
+
+/// CSS Overrides

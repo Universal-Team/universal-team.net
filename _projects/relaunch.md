@@ -16,13 +16,13 @@ screenshots:
 ### Basic Setup
 1. Find Nintendo DS homebrew to launch
    - Feel free to check out <a href="https://db.universal-team.net/ds/">Universal DB</a>, the place for all Nintendo DS homebrew
-1. Start Relaunch and hold <span class="circled">A</span> and <span class="circled">B</span>
+1. Start Relaunch and hold <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
 1. Head to `Options` and choose your hotkey apps
 1. Start Relaunch again and hold the button corresponding to the app you want to launch
 
 ### Advanced Usage
 - You can edit the <code>Relaunch.ini</code> file and set custom paths, names, and file extensions for your files, you can also do this in the Relaunch menu
-- Hold <span class="circled">A</span> + <span class="circled">B</span> on boot in order to open the menu
+- Hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> on boot in order to open the menu
 
 ----
 
